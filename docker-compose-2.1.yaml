@@ -1,11 +1,8 @@
 version: "2"
 
-networks:
-  test:
-
 services:
-  caliper:
-    container_name: caliper
+  caliper_2.1:
+    container_name: caliper_2.1
     image: hyperledger/caliper:0.3.1
     command: launch master --caliper-fabric-gateway-usegateway --caliper-flow-only-test --caliper-fabric-gateway-discovery
     environment:
@@ -14,5 +11,5 @@ services:
       - CALIPER_NETWORKCONFIG=networks/fabric/pavan-v2.1/network-config.yaml
       # - CALIPER_FABRIC_SKIPCREATECHANNEL_MYCHANNEL=true
     volumes:
-      - ./caliper-benchmarks:/hyperledger/caliper/workspace
+      - ./caliper-benchmarks-local:/hyperledger/caliper/workspace
     network_mode: host

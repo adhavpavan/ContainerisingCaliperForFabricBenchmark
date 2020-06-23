@@ -1,4 +1,6 @@
 caliper-benchmarks-local/src/fabric/samples/fabcar/go/vendor
-caliper-benchmarks-local/networks/fabric/pavan/crypto-config
+crypto-config/*
 caliper-benchmarks-local/node_modules
 caliper-benchmarks-local/src/fabric/samples/fabcar/go/go.sum
+caliper-benchmarks-local/networks/fabric/pavan/crypto-config
+caliper-benchmarks-local/networks/fabric/pavan-v2.1/crypto-config

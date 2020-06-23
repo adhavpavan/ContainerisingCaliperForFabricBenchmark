@@ -657,3 +657,556 @@
 2020.06.23-17:26:19.408[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
 2020.06.23-17:26:19.408[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
 2020.06.23-17:26:19.409[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-17:28:03.850[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:28:03.850[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:28:03.851[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:28:03.851[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:28:03.864[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-17:28:03.865[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-17:28:03.879[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:28:04.984[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-17:28:04.984[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:28:05.753[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-17:28:05.999[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-17:28:06.016[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:28:06.028[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:28:06.043[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-17:28:06.051[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-17:28:06.052[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-17:28:06.134[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-17:28:06.174[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-17:28:06.174[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.19 seconds
+2020.06.23-17:28:06.176[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-17:28:06.197[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org1.example.com
+2020.06.23-17:28:06.219[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org2.example.com
+2020.06.23-17:28:06.220[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-17:28:06.249[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already instantiated in mychannel
+2020.06.23-17:28:06.249[32m info [39m [caliper] [caliper-engine] 	Executed "install" step in 0.075 seconds
+2020.06.23-17:28:06.250[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-master" 
+2020.06.23-17:28:06.253[90m debug[39m [caliper] [testObserver.js] 	Creating test observer of type "none"
+2020.06.23-17:28:06.255[32m info [39m [caliper] [null-observer] 	Configured "null" observer
+2020.06.23-17:28:06.260[32m info [39m [caliper] [round-orchestrator] 	Monitors successfully started
+2020.06.23-17:28:06.260[32m info [39m [caliper] [round-orchestrator] 	Started round 1 (open)
+2020.06.23-17:28:06.261[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setBenchmark
+2020.06.23-17:28:06.261[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setRound
+2020.06.23-17:28:06.262[32m info [39m [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2020.06.23-17:28:06.270[32m info [39m [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2020.06.23-17:28:06.271[32m info [39m [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2020.06.23-17:28:06.272[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2020.06.23-17:28:06.729[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:28:06.970[32m info [39m [caliper] [cli-launch-worker] 	Worker is a locally forked process, skipping binding step already performed by the master process
+2020.06.23-17:28:06.972[32m info [39m [caliper] [cli-launch-worker] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:28:06.972[32m info [39m [caliper] [cli-launch-worker] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:28:06.972[32m info [39m [caliper] [cli-launch-worker] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:28:06.972[32m info [39m [caliper] [cli-launch-worker] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:28:06.975[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-worker"  for SUT fabric
+2020.06.23-17:28:11.273[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:28:11.272Z","data":{"type":"register"}}
+2020.06.23-17:28:11.275[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:28:11.272Z","data":{"type":"register"}}
+2020.06.23-17:28:11.278[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:11.277Z","data":{"type":"connected"}}
+2020.06.23-17:28:11.279[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:11.277Z","data":{"type":"connected"}}
+2020.06.23-17:28:11.283[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:28:11.283Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:28:11.280[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with connected message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:11.277Z","data":{"type":"connected"}}
+2020.06.23-17:28:11.281[90m debug[39m [caliper] [worker-orchestrator] 	Handling connected message from 710 with data {"type":"connected"}
+2020.06.23-17:28:11.282[32m info [39m [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2020.06.23-17:28:11.282[32m info [39m [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2020.06.23-17:28:11.283[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:28:11.283Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:28:11.283[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2020.06.23-17:28:11.284[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:11.284Z","data":{"type":"assigned"}}
+2020.06.23-17:28:11.287[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:28:11.286Z","data":{"type":"initialize"}}
+2020.06.23-17:28:11.285[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:11.284Z","data":{"type":"assigned"}}
+2020.06.23-17:28:11.285[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with assigned message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:11.284Z","data":{"type":"assigned"}}
+2020.06.23-17:28:11.285[90m debug[39m [caliper] [worker-orchestrator] 	Handling assigned message from 710 with data {"type":"assigned"}
+2020.06.23-17:28:11.286[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase assigned
+2020.06.23-17:28:11.286[32m info [39m [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2020.06.23-17:28:11.286[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2020.06.23-17:28:11.286[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:28:11.286Z","data":{"type":"initialize"}}
+2020.06.23-17:28:11.287[32m info [39m [caliper] [message-handler] 	Handling "init" message
+2020.06.23-17:28:11.287[90m debug[39m [caliper] [message-handler] 	Message content ({"type":"initialize"})
+2020.06.23-17:28:11.292[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:28:12.022[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:28:12.423[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:28:12.431[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:28:12.460[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:12.460Z","data":{"type":"ready"}}
+2020.06.23-17:28:12.460[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:12.460Z","data":{"type":"ready"}}
+2020.06.23-17:28:12.460[32m info [39m [caliper] [message-handler] 	Handled successful "init" message for worker 0
+2020.06.23-17:28:12.461[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with ready message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:12.460Z","data":{"type":"ready"}}
+2020.06.23-17:28:12.461[90m debug[39m [caliper] [worker-orchestrator] 	Handling ready message from 710 with data {"type":"ready"}
+2020.06.23-17:28:12.461[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase ready
+2020.06.23-17:28:12.462[32m info [39m [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2020.06.23-17:28:12.462[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:28:12.462Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:28:12.462[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:28:12.462Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:28:12.463[32m info [39m [caliper] [message-handler] 	Handling "prepare" message
+2020.06.23-17:28:12.463[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:28:12.464[90m debug[39m [caliper] [caliper-local-client.js] 	prepareTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:28:12.651[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase starting...
+2020.06.23-17:28:17.485[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-17:28:17.653[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase complete
+2020.06.23-17:28:17.656[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:17.654Z","data":{"type":"prepared"}}
+2020.06.23-17:28:17.655[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:17.654Z","data":{"type":"prepared"}}
+2020.06.23-17:28:17.656[32m info [39m [caliper] [message-handler] 	Handled successful "prepare" message for worker 0 and test round 0
+2020.06.23-17:28:17.657[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with prepared message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:17.654Z","data":{"type":"prepared"}}
+2020.06.23-17:28:17.657[90m debug[39m [caliper] [worker-orchestrator] 	Handling prepared message from 710 with data {"type":"prepared"}
+2020.06.23-17:28:17.658[32m info [39m [caliper] [worker-orchestrator] 	1 workers prepared, progressing to test phase.
+2020.06.23-17:28:17.659[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on startWatch
+2020.06.23-17:28:17.660[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:28:17.660Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-17:28:17.665[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:17.663Z","data":{"type":"txReset"}}
+2020.06.23-17:28:17.665[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txReset message
+2020.06.23-17:28:17.661[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:28:17.660Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-17:28:17.662[32m info [39m [caliper] [message-handler] 	Handling "test" message
+2020.06.23-17:28:17.662[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-17:28:17.663[90m debug[39m [caliper] [caliper-local-client.js] 	doTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-17:28:17.663[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:17.663Z","data":{"type":"txReset"}}
+2020.06.23-17:28:17.664[32m info [39m [caliper] [caliper-local-client.js] 	txUpdateTime: 5000
+2020.06.23-17:28:17.664[90m debug[39m [caliper] [rateControl.js] 	Creating rate controller for client#0 for round#0 ({"type":"fixed-rate","opts":{"tps":100}})
+2020.06.23-17:28:17.667[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 start test runFixedNumber():opening accounts
+2020.06.23-17:28:22.685[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:22.685Z","data":{"submitted":164,"committed":{"succ":110,"fail":0,"create":{"min":1592933297.671,"max":1592933301.333},"final":{"min":1592933298.633,"max":1592933302.351,"last":1592933302.351},"delay":{"min":0.732,"max":1.443,"sum":116.64300000000003,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":110},"type":"txUpdate"}}
+2020.06.23-17:28:22.686[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:22.685[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:22.685Z","data":{"submitted":164,"committed":{"succ":110,"fail":0,"create":{"min":1592933297.671,"max":1592933301.333},"final":{"min":1592933298.633,"max":1592933302.351,"last":1592933302.351},"delay":{"min":0.732,"max":1.443,"sum":116.64300000000003,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":110},"type":"txUpdate"}}
+2020.06.23-17:28:27.689[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:27.689Z","data":{"submitted":217,"committed":{"succ":80,"fail":0,"create":{"min":1592933301.273,"max":1592933303.236},"final":{"min":1592933302.97,"max":1592933307.274,"last":1592933307.274},"delay":{"min":1.318,"max":4.278,"sum":235.023,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":80},"type":"txUpdate"}}
+2020.06.23-17:28:27.692[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:27.689Z","data":{"submitted":217,"committed":{"succ":80,"fail":0,"create":{"min":1592933301.273,"max":1592933303.236},"final":{"min":1592933302.97,"max":1592933307.274,"last":1592933307.274},"delay":{"min":1.318,"max":4.278,"sum":235.023,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":80},"type":"txUpdate"}}
+2020.06.23-17:28:27.696[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:32.692[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:32.690Z","data":{"submitted":209,"committed":{"succ":80,"fail":0,"create":{"min":1592933303.107,"max":1592933305.114},"final":{"min":1592933308.315,"max":1592933312.076,"last":1592933312.076},"delay":{"min":4.962,"max":7.144,"sum":477.30800000000005,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":80},"type":"txUpdate"}}
+2020.06.23-17:28:32.692[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:32.694[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:32.690Z","data":{"submitted":209,"committed":{"succ":80,"fail":0,"create":{"min":1592933303.107,"max":1592933305.114},"final":{"min":1592933308.315,"max":1592933312.076,"last":1592933312.076},"delay":{"min":4.962,"max":7.144,"sum":477.30800000000005,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":80},"type":"txUpdate"}}
+2020.06.23-17:28:37.697[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:37.697Z","data":{"submitted":185,"committed":{"succ":70,"fail":0,"create":{"min":1592933305.041,"max":1592933307.315},"final":{"min":1592933313.188,"max":1592933317.044,"last":1592933317.044},"delay":{"min":7.662,"max":10.332,"sum":628.2210000000001,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":70},"type":"txUpdate"}}
+2020.06.23-17:28:37.697[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:37.702[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:37.697Z","data":{"submitted":185,"committed":{"succ":70,"fail":0,"create":{"min":1592933305.041,"max":1592933307.315},"final":{"min":1592933313.188,"max":1592933317.044,"last":1592933317.044},"delay":{"min":7.662,"max":10.332,"sum":628.2210000000001,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":70},"type":"txUpdate"}}
+2020.06.23-17:28:42.762[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:42.762Z","data":{"submitted":181,"committed":{"succ":70,"fail":0,"create":{"min":1592933307.178,"max":1592933308.75},"final":{"min":1592933318.077,"max":1592933322.319,"last":1592933322.319},"delay":{"min":10.558,"max":13.923,"sum":869.5199999999998,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":70},"type":"txUpdate"}}
+2020.06.23-17:28:42.763[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:42.762Z","data":{"submitted":181,"committed":{"succ":70,"fail":0,"create":{"min":1592933307.178,"max":1592933308.75},"final":{"min":1592933318.077,"max":1592933322.319,"last":1592933322.319},"delay":{"min":10.558,"max":13.923,"sum":869.5199999999998,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":70},"type":"txUpdate"}}
+2020.06.23-17:28:42.764[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:47.763[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:47.763Z","data":{"submitted":44,"committed":{"succ":190,"fail":0,"create":{"min":1592933308.804,"max":1592933313.426},"final":{"min":1592933322.783,"max":1592933327.68,"last":1592933327.68},"delay":{"min":13.564,"max":15.527,"sum":2763.986999999999,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":190},"type":"txUpdate"}}
+2020.06.23-17:28:47.764[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:47.763Z","data":{"submitted":44,"committed":{"succ":190,"fail":0,"create":{"min":1592933308.804,"max":1592933313.426},"final":{"min":1592933322.783,"max":1592933327.68,"last":1592933327.68},"delay":{"min":13.564,"max":15.527,"sum":2763.986999999999,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":190},"type":"txUpdate"}}
+2020.06.23-17:28:47.764[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:52.763[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:52.763Z","data":{"submitted":0,"committed":{"succ":310,"fail":0,"create":{"min":1592933313.326,"max":1592933321.337},"final":{"min":1592933327.84,"max":1592933332.67,"last":1592933332.67},"delay":{"min":11.333,"max":14.628,"sum":4054.5590000000016,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":310},"type":"txUpdate"}}
+2020.06.23-17:28:52.763[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:52.763Z","data":{"submitted":0,"committed":{"succ":310,"fail":0,"create":{"min":1592933313.326,"max":1592933321.337},"final":{"min":1592933327.84,"max":1592933332.67,"last":1592933332.67},"delay":{"min":11.333,"max":14.628,"sum":4054.5590000000016,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":310},"type":"txUpdate"}}
+2020.06.23-17:28:52.763[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:53.908[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:53.908Z","data":{"submitted":0,"committed":{"succ":90,"fail":0,"create":{"min":1592933320.791,"max":1592933323.888},"final":{"min":1592933332.847,"max":1592933333.906,"last":1592933333.906},"delay":{"min":10.018,"max":12.056,"sum":976.766,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":90},"type":"txUpdate"}}
+2020.06.23-17:28:53.908[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:53.908Z","data":{"submitted":0,"committed":{"succ":90,"fail":0,"create":{"min":1592933320.791,"max":1592933323.888},"final":{"min":1592933332.847,"max":1592933333.906,"last":1592933333.906},"delay":{"min":10.018,"max":12.056,"sum":976.766,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":90},"type":"txUpdate"}}
+2020.06.23-17:28:53.908[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:28:53.909[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:53.908Z","data":{"type":"txReset"}}
+2020.06.23-17:28:53.909[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txReset message
+2020.06.23-17:28:53.908[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:53.908Z","data":{"type":"txReset"}}
+2020.06.23-17:28:54.109[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:54.109Z","data":{"results":{"succ":1000,"fail":0,"create":{"min":1592933297.671,"max":1592933323.888},"final":{"min":1592933298.633,"max":1592933333.906,"last":1592933333.906},"delay":{"min":0.732,"max":15.527,"sum":10122.027,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":1000},"start":1592933297668,"end":1592933333906,"type":"testResult"}}
+2020.06.23-17:28:54.109[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:28:54.109Z","data":{"results":{"succ":1000,"fail":0,"create":{"min":1592933297.671,"max":1592933323.888},"final":{"min":1592933298.633,"max":1592933333.906,"last":1592933333.906},"delay":{"min":0.732,"max":15.527,"sum":10122.027,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":1000},"start":1592933297668,"end":1592933333906,"type":"testResult"}}
+2020.06.23-17:28:54.109[32m info [39m [caliper] [message-handler] 	Handled "test" message for worker 0
+2020.06.23-17:28:54.110[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with testResult message
+2020.06.23-17:28:54.110[90m debug[39m [caliper] [worker-orchestrator] 	Handling testResult message from 710 with data {}
+2020.06.23-17:28:54.111[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on stopWatch
+2020.06.23-17:28:54.111[90m debug[39m [caliper] [report-builder] 	getLocalResultValues called with:  ({"succ":1000,"fail":0,"create":{"min":1592933297.671,"max":1592933323.888},"final":{"min":1592933298.633,"max":1592933333.906,"last":1592933333.906},"delay":{"min":0.732,"max":15.527,"sum":10122.027,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":1000})
+2020.06.23-17:28:54.112[32m info [39m [caliper] [report-builder] 	### Test result ###
+2020.06.23-17:28:54.122[32m info [39m [caliper] [report-builder] 	
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name | Succ | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|------|------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open | 1000 | 0    | 38.1            | 15.53           | 0.73            | 10.12           | 27.6             |
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2020.06.23-17:28:54.131[32m info [39m [caliper] [round-orchestrator] 	Finished round 1 (open) in 36.238 seconds
+2020.06.23-17:28:54.131[32m info [39m [caliper] [report-builder] 	### All test results ###
+2020.06.23-17:28:54.134[32m info [39m [caliper] [report-builder] 	
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name | Succ | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|------|------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open | 1000 | 0    | 38.1            | 15.53           | 0.73            | 10.12           | 27.6             |
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2020.06.23-17:28:54.163[32m info [39m [caliper] [caliper-flow] 	Generated report with path /hyperledger/caliper/workspace/report.html
+2020.06.23-17:28:54.264[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:28:54.264Z","data":{"type":"exit"}}
+2020.06.23-18:34:49.849[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-18:34:50.107[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:2.1.0"
+2020.06.23-18:34:50.114[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-18:34:50.115[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-18:34:50.115[32m info [39m [caliper] [bind] 	Binding for fabric@2.1.0. This might take some time...
+2020.06.23-18:34:50.115[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-18:34:50.115[32m info [39m [caliper] [bind] 	Calling npm with: install -g fabric-common@2.1.0 fabric-protos@2.1.0 fabric-network@2.1.0 fabric-ca-client@2.1.0
+2020.06.23-18:36:37.395[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-18:36:37.396[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-18:36:37.397[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan-v2.1/network-config.yaml
+2020.06.23-18:36:37.397[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:2.1.0
+2020.06.23-18:36:37.405[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-18:36:37.405[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-18:36:38.071[32m info [39m [caliper] [adapters/fabric] 	Initializing gateway adaptor compatible with installed SDK: 2.1.0
+2020.06.23-18:36:38.607[32m info [39m [caliper] [caliper-engine] 	Skipping start commands due to benchmark flow conditioning
+2020.06.23-18:36:38.607[32m info [39m [caliper] [caliper-engine] 	Skipping initialization phase due to benchmark flow conditioning
+2020.06.23-18:36:38.607[32m info [39m [caliper] [caliper-engine] 	Skipping install smart contract phase due to benchmark flow conditioning
+2020.06.23-18:36:38.608[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-master" 
+2020.06.23-18:36:38.610[90m debug[39m [caliper] [testObserver.js] 	Creating test observer of type "none"
+2020.06.23-18:36:38.611[32m info [39m [caliper] [null-observer] 	Configured "null" observer
+2020.06.23-18:36:38.614[32m info [39m [caliper] [round-orchestrator] 	Monitors successfully started
+2020.06.23-18:36:38.614[32m info [39m [caliper] [round-orchestrator] 	Started round 1 (open)
+2020.06.23-18:36:38.615[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setBenchmark
+2020.06.23-18:36:38.615[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setRound
+2020.06.23-18:36:38.615[32m info [39m [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2020.06.23-18:36:38.621[32m info [39m [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2020.06.23-18:36:38.621[32m info [39m [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2020.06.23-18:36:38.622[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2020.06.23-18:36:38.978[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-18:36:39.214[32m info [39m [caliper] [cli-launch-worker] 	Worker is a locally forked process, skipping binding step already performed by the master process
+2020.06.23-18:36:39.215[32m info [39m [caliper] [cli-launch-worker] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-18:36:39.215[32m info [39m [caliper] [cli-launch-worker] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-18:36:39.216[32m info [39m [caliper] [cli-launch-worker] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan-v2.1/network-config.yaml
+2020.06.23-18:36:39.216[32m info [39m [caliper] [cli-launch-worker] 	Set SUT type: fabric:2.1.0
+2020.06.23-18:36:39.218[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-worker"  for SUT fabric
+2020.06.23-18:36:43.623[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:36:43.622Z","data":{"type":"register"}}
+2020.06.23-18:36:43.623[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:36:43.622Z","data":{"type":"register"}}
+2020.06.23-18:36:43.625[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:43.624Z","data":{"type":"connected"}}
+2020.06.23-18:36:43.627[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:43.624Z","data":{"type":"connected"}}
+2020.06.23-18:36:43.629[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:36:43.628Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-18:36:43.627[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with connected message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:43.624Z","data":{"type":"connected"}}
+2020.06.23-18:36:43.627[90m debug[39m [caliper] [worker-orchestrator] 	Handling connected message from 969 with data {"type":"connected"}
+2020.06.23-18:36:43.628[32m info [39m [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2020.06.23-18:36:43.628[32m info [39m [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2020.06.23-18:36:43.629[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:36:43.628Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-18:36:43.629[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2020.06.23-18:36:43.629[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:43.629Z","data":{"type":"assigned"}}
+2020.06.23-18:36:43.629[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:43.629Z","data":{"type":"assigned"}}
+2020.06.23-18:36:43.631[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:36:43.630Z","data":{"type":"initialize"}}
+2020.06.23-18:36:43.630[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with assigned message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:43.629Z","data":{"type":"assigned"}}
+2020.06.23-18:36:43.630[90m debug[39m [caliper] [worker-orchestrator] 	Handling assigned message from 969 with data {"type":"assigned"}
+2020.06.23-18:36:43.630[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase assigned
+2020.06.23-18:36:43.630[32m info [39m [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2020.06.23-18:36:43.630[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2020.06.23-18:36:43.630[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:36:43.630Z","data":{"type":"initialize"}}
+2020.06.23-18:36:43.631[32m info [39m [caliper] [message-handler] 	Handling "init" message
+2020.06.23-18:36:43.631[90m debug[39m [caliper] [message-handler] 	Message content ({"type":"initialize"})
+2020.06.23-18:36:44.199[32m info [39m [caliper] [adapters/fabric] 	Initializing gateway adaptor compatible with installed SDK: 2.1.0
+2020.06.23-18:36:44.667[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 2.1.0; TLS: server
+2020.06.23-18:36:44.667[33m warn [39m [caliper] [adapters/fabric] 	Administrative actions are not possible with Fabric SDK version: 2.1.0
+2020.06.23-18:36:44.668[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 2.1.0; TLS: server
+2020.06.23-18:36:44.668[32m info [39m [caliper] [adapters/fabric] 	Creating new InMemoryWallet to persist user identities
+2020.06.23-18:36:44.669[32m info [39m [caliper] [adapters/fabric] 	Initializing administrators
+2020.06.23-18:36:44.669[32m info [39m [caliper] [adapters/fabric] 	No admin.Org1 found in caliper configuration file - unable to perform admin options
+2020.06.23-18:36:44.669[32m info [39m [caliper] [adapters/fabric] 	No admin.Org2 found in caliper configuration file - unable to perform admin options
+2020.06.23-18:36:45.709[32m info [39m [caliper] [adapters/fabric] 	Initializing users
+2020.06.23-18:36:45.710[32m info [39m [caliper] [adapters/fabric] 	Adding identity for identityName client0.org1.example.com to wallet
+2020.06.23-18:36:45.710[32m info [39m [caliper] [adapters/fabric] 	Identity client0.org1.example.com created and imported to wallet
+2020.06.23-18:36:45.711[32m info [39m [caliper] [adapters/fabric] 	Adding identity for identityName client0.org2.example.com to wallet
+2020.06.23-18:36:45.712[32m info [39m [caliper] [adapters/fabric] 	Identity client0.org2.example.com created and imported to wallet
+2020.06.23-18:36:45.712[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:45.712Z","data":{"type":"ready"}}
+2020.06.23-18:36:45.712[32m info [39m [caliper] [message-handler] 	Handled successful "init" message for worker 0
+2020.06.23-18:36:45.714[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:45.712Z","data":{"type":"ready"}}
+2020.06.23-18:36:45.714[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with ready message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:36:45.712Z","data":{"type":"ready"}}
+2020.06.23-18:36:45.714[90m debug[39m [caliper] [worker-orchestrator] 	Handling ready message from 969 with data {"type":"ready"}
+2020.06.23-18:36:45.714[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase ready
+2020.06.23-18:36:45.714[32m info [39m [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2020.06.23-18:36:45.715[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:36:45.715Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-18:36:45.717[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:36:45.715Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-18:36:45.718[32m info [39m [caliper] [message-handler] 	Handling "prepare" message
+2020.06.23-18:36:45.718[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-18:36:45.719[90m debug[39m [caliper] [caliper-local-client.js] 	prepareTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-18:36:45.725[32m info [39m [caliper] [adapters/fabric] 	Retrieving and persisting contract map for identity client0.org1.example.com
+2020.06.23-18:36:45.725[32m info [39m [caliper] [adapters/fabric] 	Connecting user client0.org1.example.com to a Network Gateway
+2020.06.23-18:36:50.724[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-18:36:55.724[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-18:37:00.725[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-18:37:05.725[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-18:37:07.324[32m info [39m [caliper] [adapters/fabric] 	Successfully connected user client0.org1.example.com to a Network Gateway
+2020.06.23-18:37:07.324[32m info [39m [caliper] [adapters/fabric] 	Generating contract map for user client0.org1.example.com
+2020.06.23-18:37:10.329[32m info [39m [caliper] [caliper-local-client.js] 	Client[0] encountered an error during prepare test phase: Error: Failed to connect before the deadline on Discoverer- name: peer0.org1.example.com, url:grpcs://localhost:7051, connected:false, connectAttempted:true
+    at checkState (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/@grpc/grpc-js/build/src/client.js:69:26)
+    at Timeout.watcherObject.timer.setTimeout [as _onTimeout] (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/@grpc/grpc-js/build/src/channel.js:292:17)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+2020.06.23-18:37:10.332[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:37:10.331Z","data":{"error":"Error: Failed to connect before the deadline on Discoverer- name: peer0.org1.example.com, url:grpcs://localhost:7051, connected:false, connectAttempted:true","type":"prepared"}}
+2020.06.23-18:37:10.333[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with prepared message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:37:10.331Z","data":{"error":"Error: Failed to connect before the deadline on Discoverer- name: peer0.org1.example.com, url:grpcs://localhost:7051, connected:false, connectAttempted:true","type":"prepared"}}
+2020.06.23-18:37:10.333[90m debug[39m [caliper] [worker-orchestrator] 	Handling prepared message from 969 with data {"error":"Error: Failed to connect before the deadline on Discoverer- name: peer0.org1.example.com, url:grpcs://localhost:7051, connected:false, connectAttempted:true","type":"prepared"}
+2020.06.23-18:37:10.335[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on stopWatch
+2020.06.23-18:37:10.336[31m error[39m [caliper] [round-orchestrator] 	Failed round 1 (open): Error: Error: Failed to connect before the deadline on Discoverer- name: peer0.org1.example.com, url:grpcs://localhost:7051, connected:false, connectAttempted:true
+    at WorkerOrchestrator.updateWorkerPhase (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/worker-orchestrator.js:211:61)
+    at WorkerOrchestrator.processWorkerUpdate (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/worker-orchestrator.js:124:18)
+    at ChildProcess.<anonymous> (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-core/lib/common/messaging/process-master.js:51:30)
+    at ChildProcess.emit (events.js:198:13)
+    at emit (internal/child_process.js:832:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020.06.23-18:37:10.337[32m info [39m [caliper] [report-builder] 	### All test results ###
+2020.06.23-18:37:10.338[31m error[39m [caliper] [report-builder] 	No data within test result; implies error within configuration files
+2020.06.23-18:37:10.338[31m error[39m [caliper] [round-orchestrator] 	Error while finalizing the report: Error: unrecognized report table
+    at ReportBuilder.setSummaryTable (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-core/lib/master/report/report-builder.js:142:19)
+    at Report.printResultsByRound (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-core/lib/master/report/report.js:254:28)
+    at RoundOrchestrator.run (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/round-orchestrator.js:221:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020.06.23-18:37:10.330[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase complete
+2020.06.23-18:37:10.340[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:37:10.331Z","data":{"error":"Error: Failed to connect before the deadline on Discoverer- name: peer0.org1.example.com, url:grpcs://localhost:7051, connected:false, connectAttempted:true","type":"prepared"}}
+2020.06.23-18:37:10.340[31m error[39m [caliper] [message-handler] 	Handled unsuccessful "prepare" message for worker 0 and test round 0 with error Error: Failed to connect before the deadline on Discoverer- name: peer0.org1.example.com, url:grpcs://localhost:7051, connected:false, connectAttempted:true
+    at checkState (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/@grpc/grpc-js/build/src/client.js:69:26)
+    at Timeout.watcherObject.timer.setTimeout [as _onTimeout] (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/@grpc/grpc-js/build/src/channel.js:292:17)
+    at ontimeout (timers.js:436:11)
+    at tryOnTimeout (timers.js:300:5)
+    at listOnTimeout (timers.js:263:5)
+    at Timer.processTimers (timers.js:223:10)
+2020.06.23-18:37:10.441[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:37:10.440Z","data":{"type":"exit"}}
+2020.06.23-18:37:10.441[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:37:10.440Z","data":{"type":"exit"}}
+2020.06.23-18:40:10.218[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-18:40:10.722[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:2.1.0"
+2020.06.23-18:40:10.734[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-18:40:10.734[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-18:40:10.735[32m info [39m [caliper] [bind] 	Binding for fabric@2.1.0. This might take some time...
+2020.06.23-18:40:10.735[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-18:40:10.735[32m info [39m [caliper] [bind] 	Calling npm with: install -g fabric-common@2.1.0 fabric-protos@2.1.0 fabric-network@2.1.0 fabric-ca-client@2.1.0
+2020.06.23-18:42:01.171[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-18:42:01.172[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-18:42:01.173[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan-v2.1/network-config.yaml
+2020.06.23-18:42:01.173[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:2.1.0
+2020.06.23-18:42:01.182[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-18:42:01.182[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-18:42:01.956[32m info [39m [caliper] [adapters/fabric] 	Initializing gateway adaptor compatible with installed SDK: 2.1.0
+2020.06.23-18:42:02.531[32m info [39m [caliper] [caliper-engine] 	Skipping start commands due to benchmark flow conditioning
+2020.06.23-18:42:02.531[32m info [39m [caliper] [caliper-engine] 	Skipping initialization phase due to benchmark flow conditioning
+2020.06.23-18:42:02.532[32m info [39m [caliper] [caliper-engine] 	Skipping install smart contract phase due to benchmark flow conditioning
+2020.06.23-18:42:02.532[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-master" 
+2020.06.23-18:42:02.535[90m debug[39m [caliper] [testObserver.js] 	Creating test observer of type "none"
+2020.06.23-18:42:02.537[32m info [39m [caliper] [null-observer] 	Configured "null" observer
+2020.06.23-18:42:02.541[32m info [39m [caliper] [round-orchestrator] 	Monitors successfully started
+2020.06.23-18:42:02.541[32m info [39m [caliper] [round-orchestrator] 	Started round 1 (open)
+2020.06.23-18:42:02.542[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setBenchmark
+2020.06.23-18:42:02.542[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setRound
+2020.06.23-18:42:02.543[32m info [39m [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2020.06.23-18:42:02.549[32m info [39m [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2020.06.23-18:42:02.550[32m info [39m [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2020.06.23-18:42:02.550[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2020.06.23-18:42:02.956[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-18:42:03.208[32m info [39m [caliper] [cli-launch-worker] 	Worker is a locally forked process, skipping binding step already performed by the master process
+2020.06.23-18:42:03.209[32m info [39m [caliper] [cli-launch-worker] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-18:42:03.210[32m info [39m [caliper] [cli-launch-worker] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-18:42:03.210[32m info [39m [caliper] [cli-launch-worker] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan-v2.1/network-config.yaml
+2020.06.23-18:42:03.210[32m info [39m [caliper] [cli-launch-worker] 	Set SUT type: fabric:2.1.0
+2020.06.23-18:42:03.213[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-worker"  for SUT fabric
+2020.06.23-18:42:07.552[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:42:07.551Z","data":{"type":"register"}}
+2020.06.23-18:42:07.553[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:42:07.551Z","data":{"type":"register"}}
+2020.06.23-18:42:07.556[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:07.555Z","data":{"type":"connected"}}
+2020.06.23-18:42:07.557[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:07.555Z","data":{"type":"connected"}}
+2020.06.23-18:42:07.559[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with connected message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:07.555Z","data":{"type":"connected"}}
+2020.06.23-18:42:07.562[90m debug[39m [caliper] [worker-orchestrator] 	Handling connected message from 969 with data {"type":"connected"}
+2020.06.23-18:42:07.563[32m info [39m [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2020.06.23-18:42:07.564[32m info [39m [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2020.06.23-18:42:07.564[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:42:07.564Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-18:42:07.564[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2020.06.23-18:42:07.568[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:07.566Z","data":{"type":"assigned"}}
+2020.06.23-18:42:07.565[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:42:07.564Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-18:42:07.568[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:07.566Z","data":{"type":"assigned"}}
+2020.06.23-18:42:07.576[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:42:07.575Z","data":{"type":"initialize"}}
+2020.06.23-18:42:07.569[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with assigned message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:07.566Z","data":{"type":"assigned"}}
+2020.06.23-18:42:07.570[90m debug[39m [caliper] [worker-orchestrator] 	Handling assigned message from 969 with data {"type":"assigned"}
+2020.06.23-18:42:07.571[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase assigned
+2020.06.23-18:42:07.573[32m info [39m [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2020.06.23-18:42:07.575[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2020.06.23-18:42:07.575[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:42:07.575Z","data":{"type":"initialize"}}
+2020.06.23-18:42:07.576[32m info [39m [caliper] [message-handler] 	Handling "init" message
+2020.06.23-18:42:07.577[90m debug[39m [caliper] [message-handler] 	Message content ({"type":"initialize"})
+2020.06.23-18:42:08.156[32m info [39m [caliper] [adapters/fabric] 	Initializing gateway adaptor compatible with installed SDK: 2.1.0
+2020.06.23-18:42:08.650[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 2.1.0; TLS: server
+2020.06.23-18:42:08.650[33m warn [39m [caliper] [adapters/fabric] 	Administrative actions are not possible with Fabric SDK version: 2.1.0
+2020.06.23-18:42:08.651[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 2.1.0; TLS: server
+2020.06.23-18:42:08.651[32m info [39m [caliper] [adapters/fabric] 	Creating new InMemoryWallet to persist user identities
+2020.06.23-18:42:08.652[32m info [39m [caliper] [adapters/fabric] 	Initializing administrators
+2020.06.23-18:42:08.652[32m info [39m [caliper] [adapters/fabric] 	No admin.Org1 found in caliper configuration file - unable to perform admin options
+2020.06.23-18:42:08.652[32m info [39m [caliper] [adapters/fabric] 	No admin.Org2 found in caliper configuration file - unable to perform admin options
+2020.06.23-18:42:09.666[32m info [39m [caliper] [adapters/fabric] 	Initializing users
+2020.06.23-18:42:09.670[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:09.670Z","data":{"type":"ready"}}
+2020.06.23-18:42:09.668[32m info [39m [caliper] [adapters/fabric] 	Adding identity for identityName client0.org1.example.com to wallet
+2020.06.23-18:42:09.669[32m info [39m [caliper] [adapters/fabric] 	Identity client0.org1.example.com created and imported to wallet
+2020.06.23-18:42:09.669[32m info [39m [caliper] [adapters/fabric] 	Adding identity for identityName client0.org2.example.com to wallet
+2020.06.23-18:42:09.669[32m info [39m [caliper] [adapters/fabric] 	Identity client0.org2.example.com created and imported to wallet
+2020.06.23-18:42:09.670[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:09.670Z","data":{"type":"ready"}}
+2020.06.23-18:42:09.670[32m info [39m [caliper] [message-handler] 	Handled successful "init" message for worker 0
+2020.06.23-18:42:09.672[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:42:09.672Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-18:42:09.670[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with ready message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:09.670Z","data":{"type":"ready"}}
+2020.06.23-18:42:09.671[90m debug[39m [caliper] [worker-orchestrator] 	Handling ready message from 969 with data {"type":"ready"}
+2020.06.23-18:42:09.671[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase ready
+2020.06.23-18:42:09.671[32m info [39m [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2020.06.23-18:42:09.672[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:42:09.672Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-18:42:09.672[32m info [39m [caliper] [message-handler] 	Handling "prepare" message
+2020.06.23-18:42:09.672[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-18:42:09.673[90m debug[39m [caliper] [caliper-local-client.js] 	prepareTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-18:42:09.680[32m info [39m [caliper] [adapters/fabric] 	Retrieving and persisting contract map for identity client0.org1.example.com
+2020.06.23-18:42:09.680[32m info [39m [caliper] [adapters/fabric] 	Connecting user client0.org1.example.com to a Network Gateway
+2020.06.23-18:42:10.348[32m info [39m [caliper] [adapters/fabric] 	Successfully connected user client0.org1.example.com to a Network Gateway
+2020.06.23-18:42:10.349[32m info [39m [caliper] [adapters/fabric] 	Generating contract map for user client0.org1.example.com
+2020.06.23-18:42:10.432[32m info [39m [caliper] [adapters/fabric] 	Retrieving and persisting contract map for identity client0.org2.example.com
+2020.06.23-18:42:10.432[32m info [39m [caliper] [adapters/fabric] 	Connecting user client0.org2.example.com to a Network Gateway
+2020.06.23-18:42:10.605[32m info [39m [caliper] [adapters/fabric] 	Successfully connected user client0.org2.example.com to a Network Gateway
+2020.06.23-18:42:10.605[32m info [39m [caliper] [adapters/fabric] 	Generating contract map for user client0.org2.example.com
+2020.06.23-18:42:10.699[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase starting...
+2020.06.23-18:42:14.683[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-18:42:15.700[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase complete
+2020.06.23-18:42:15.701[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:15.701Z","data":{"type":"prepared"}}
+2020.06.23-18:42:15.701[32m info [39m [caliper] [message-handler] 	Handled successful "prepare" message for worker 0 and test round 0
+2020.06.23-18:42:15.701[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:15.701Z","data":{"type":"prepared"}}
+2020.06.23-18:42:15.702[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with prepared message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:15.701Z","data":{"type":"prepared"}}
+2020.06.23-18:42:15.703[90m debug[39m [caliper] [worker-orchestrator] 	Handling prepared message from 969 with data {"type":"prepared"}
+2020.06.23-18:42:15.703[32m info [39m [caliper] [worker-orchestrator] 	1 workers prepared, progressing to test phase.
+2020.06.23-18:42:15.705[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on startWatch
+2020.06.23-18:42:15.706[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:42:15.706Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-18:42:15.707[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:42:15.706Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-18:42:15.709[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:15.709Z","data":{"type":"txReset"}}
+2020.06.23-18:42:15.710[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txReset message
+2020.06.23-18:42:15.707[32m info [39m [caliper] [message-handler] 	Handling "test" message
+2020.06.23-18:42:15.708[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-18:42:15.708[90m debug[39m [caliper] [caliper-local-client.js] 	doTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":100}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":1000,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-18:42:15.709[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:42:15.709Z","data":{"type":"txReset"}}
+2020.06.23-18:42:15.709[32m info [39m [caliper] [caliper-local-client.js] 	txUpdateTime: 5000
+2020.06.23-18:42:15.710[90m debug[39m [caliper] [rateControl.js] 	Creating rate controller for client#0 for round#0 ({"type":"fixed-rate","opts":{"tps":100}})
+2020.06.23-18:42:15.726[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 start test runFixedNumber():opening accounts
+2020.06.23-18:42:15.750[31m error[39m [caliper] [adapters/fabric] 	Failed to perform submit transaction [createCar] using arguments [42622b80-b581-11ea-90e9-a94bf5bf089d,A,B,C,d],  with error: Error: No discovery results found
+    at DiscoveryService.getDiscoveryResults (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/DiscoveryService.js:355:10)
+    at DiscoveryHandler.endorse (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/DiscoveryHandler.js:156:40)
+    at Endorsement.send (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/Proposal.js:362:29)
+    at Transaction.submit (/home/node/.npm-global/lib/node_modules/fabric-network/lib/transaction.js:205:52)
+2020.06.23-18:42:15.758[31m error[39m [caliper] [adapters/fabric] 	Failed to perform submit transaction [createCar] using arguments [42647570-b581-11ea-90e9-a94bf5bf089d,A,B,C,d],  with error: Error: No discovery results found
+    at DiscoveryService.getDiscoveryResults (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/DiscoveryService.js:355:10)
+    at DiscoveryHandler.endorse (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/DiscoveryHandler.js:156:40)
+    at Endorsement.send (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/Proposal.js:362:29)
+    at Transaction.submit (/home/node/.npm-global/lib/node_modules/fabric-network/lib/transaction.js:205:52)
+2020.06.23-18:43:50.045[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-18:43:50.304[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:2.1.0"
+2020.06.23-18:43:50.313[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-18:43:50.313[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-18:43:50.314[32m info [39m [caliper] [bind] 	Binding for fabric@2.1.0. This might take some time...
+2020.06.23-18:43:50.314[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-18:43:50.314[32m info [39m [caliper] [bind] 	Calling npm with: install -g fabric-common@2.1.0 fabric-protos@2.1.0 fabric-network@2.1.0 fabric-ca-client@2.1.0
+2020.06.23-18:45:38.956[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-18:45:38.957[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan-v2.1/config.yaml
+2020.06.23-18:45:38.957[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan-v2.1/network-config.yaml
+2020.06.23-18:45:38.958[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:2.1.0
+2020.06.23-18:45:38.964[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-18:45:38.965[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-18:45:39.650[32m info [39m [caliper] [adapters/fabric] 	Initializing gateway adaptor compatible with installed SDK: 2.1.0
+2020.06.23-18:45:40.274[32m info [39m [caliper] [caliper-engine] 	Skipping start commands due to benchmark flow conditioning
+2020.06.23-18:45:40.274[32m info [39m [caliper] [caliper-engine] 	Skipping initialization phase due to benchmark flow conditioning
+2020.06.23-18:45:40.274[32m info [39m [caliper] [caliper-engine] 	Skipping install smart contract phase due to benchmark flow conditioning
+2020.06.23-18:45:40.275[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-master" 
+2020.06.23-18:45:40.277[90m debug[39m [caliper] [testObserver.js] 	Creating test observer of type "none"
+2020.06.23-18:45:40.278[32m info [39m [caliper] [null-observer] 	Configured "null" observer
+2020.06.23-18:45:40.281[32m info [39m [caliper] [round-orchestrator] 	Monitors successfully started
+2020.06.23-18:45:40.282[32m info [39m [caliper] [round-orchestrator] 	Started round 1 (open)
+2020.06.23-18:45:40.282[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setBenchmark
+2020.06.23-18:45:40.282[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setRound
+2020.06.23-18:45:40.283[32m info [39m [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2020.06.23-18:45:40.288[32m info [39m [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2020.06.23-18:45:40.288[32m info [39m [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2020.06.23-18:45:40.288[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2020.06.23-18:45:40.642[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-18:45:40.894[32m info [39m [caliper] [cli-launch-worker] 	Worker is a locally forked process, skipping binding step already performed by the master process
+2020.06.23-18:45:40.896[32m info [39m [caliper] [cli-launch-worker] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-18:45:40.896[32m info [39m [caliper] [cli-launch-worker] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan-v2.1/config.yaml
+2020.06.23-18:45:40.896[32m info [39m [caliper] [cli-launch-worker] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan-v2.1/network-config.yaml
+2020.06.23-18:45:40.897[32m info [39m [caliper] [cli-launch-worker] 	Set SUT type: fabric:2.1.0
+2020.06.23-18:45:40.900[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-worker"  for SUT fabric
+2020.06.23-18:45:45.290[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:45:45.289Z","data":{"type":"register"}}
+2020.06.23-18:45:45.290[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:45:45.289Z","data":{"type":"register"}}
+2020.06.23-18:45:45.292[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:45.291Z","data":{"type":"connected"}}
+2020.06.23-18:45:45.292[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:45.291Z","data":{"type":"connected"}}
+2020.06.23-18:45:45.293[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with connected message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:45.291Z","data":{"type":"connected"}}
+2020.06.23-18:45:45.293[90m debug[39m [caliper] [worker-orchestrator] 	Handling connected message from 969 with data {"type":"connected"}
+2020.06.23-18:45:45.294[32m info [39m [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2020.06.23-18:45:45.294[32m info [39m [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2020.06.23-18:45:45.295[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:45:45.295Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-18:45:45.295[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2020.06.23-18:45:45.295[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:45:45.295Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-18:45:45.296[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:45.296Z","data":{"type":"assigned"}}
+2020.06.23-18:45:45.296[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with assigned message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:45.296Z","data":{"type":"assigned"}}
+2020.06.23-18:45:45.297[90m debug[39m [caliper] [worker-orchestrator] 	Handling assigned message from 969 with data {"type":"assigned"}
+2020.06.23-18:45:45.297[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase assigned
+2020.06.23-18:45:45.297[32m info [39m [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2020.06.23-18:45:45.297[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2020.06.23-18:45:45.298[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:45:45.297Z","data":{"type":"initialize"}}
+2020.06.23-18:45:45.298[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:45.296Z","data":{"type":"assigned"}}
+2020.06.23-18:45:45.298[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:45:45.297Z","data":{"type":"initialize"}}
+2020.06.23-18:45:45.299[32m info [39m [caliper] [message-handler] 	Handling "init" message
+2020.06.23-18:45:45.299[90m debug[39m [caliper] [message-handler] 	Message content ({"type":"initialize"})
+2020.06.23-18:45:45.954[32m info [39m [caliper] [adapters/fabric] 	Initializing gateway adaptor compatible with installed SDK: 2.1.0
+2020.06.23-18:45:46.414[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 2.1.0; TLS: server
+2020.06.23-18:45:46.414[33m warn [39m [caliper] [adapters/fabric] 	Administrative actions are not possible with Fabric SDK version: 2.1.0
+2020.06.23-18:45:46.414[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 2.1.0; TLS: server
+2020.06.23-18:45:46.415[32m info [39m [caliper] [adapters/fabric] 	Creating new InMemoryWallet to persist user identities
+2020.06.23-18:45:46.415[32m info [39m [caliper] [adapters/fabric] 	Initializing administrators
+2020.06.23-18:45:46.415[32m info [39m [caliper] [adapters/fabric] 	No admin.Org1 found in caliper configuration file - unable to perform admin options
+2020.06.23-18:45:46.416[32m info [39m [caliper] [adapters/fabric] 	No admin.Org2 found in caliper configuration file - unable to perform admin options
+2020.06.23-18:45:47.388[32m info [39m [caliper] [adapters/fabric] 	Initializing users
+2020.06.23-18:45:47.397[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:47.397Z","data":{"type":"ready"}}
+2020.06.23-18:45:47.390[32m info [39m [caliper] [adapters/fabric] 	Adding identity for identityName client0.org1.example.com to wallet
+2020.06.23-18:45:47.390[32m info [39m [caliper] [adapters/fabric] 	Identity client0.org1.example.com created and imported to wallet
+2020.06.23-18:45:47.396[32m info [39m [caliper] [adapters/fabric] 	Adding identity for identityName client0.org2.example.com to wallet
+2020.06.23-18:45:47.396[32m info [39m [caliper] [adapters/fabric] 	Identity client0.org2.example.com created and imported to wallet
+2020.06.23-18:45:47.397[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:47.397Z","data":{"type":"ready"}}
+2020.06.23-18:45:47.397[32m info [39m [caliper] [message-handler] 	Handled successful "init" message for worker 0
+2020.06.23-18:45:47.399[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:45:47.399Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-18:45:47.398[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with ready message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:47.397Z","data":{"type":"ready"}}
+2020.06.23-18:45:47.398[90m debug[39m [caliper] [worker-orchestrator] 	Handling ready message from 969 with data {"type":"ready"}
+2020.06.23-18:45:47.398[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase ready
+2020.06.23-18:45:47.399[32m info [39m [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2020.06.23-18:45:47.399[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:45:47.399Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-18:45:47.400[32m info [39m [caliper] [message-handler] 	Handling "prepare" message
+2020.06.23-18:45:47.400[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-18:45:47.401[90m debug[39m [caliper] [caliper-local-client.js] 	prepareTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-18:45:47.410[32m info [39m [caliper] [adapters/fabric] 	Retrieving and persisting contract map for identity client0.org1.example.com
+2020.06.23-18:45:47.411[32m info [39m [caliper] [adapters/fabric] 	Connecting user client0.org1.example.com to a Network Gateway
+2020.06.23-18:45:48.047[32m info [39m [caliper] [adapters/fabric] 	Successfully connected user client0.org1.example.com to a Network Gateway
+2020.06.23-18:45:48.047[32m info [39m [caliper] [adapters/fabric] 	Generating contract map for user client0.org1.example.com
+2020.06.23-18:45:48.129[32m info [39m [caliper] [adapters/fabric] 	Retrieving and persisting contract map for identity client0.org2.example.com
+2020.06.23-18:45:48.130[32m info [39m [caliper] [adapters/fabric] 	Connecting user client0.org2.example.com to a Network Gateway
+2020.06.23-18:45:48.283[32m info [39m [caliper] [adapters/fabric] 	Successfully connected user client0.org2.example.com to a Network Gateway
+2020.06.23-18:45:48.284[32m info [39m [caliper] [adapters/fabric] 	Generating contract map for user client0.org2.example.com
+2020.06.23-18:45:48.335[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase starting...
+2020.06.23-18:45:52.414[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-18:45:53.338[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase complete
+2020.06.23-18:45:53.339[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:53.339Z","data":{"type":"prepared"}}
+2020.06.23-18:45:53.339[32m info [39m [caliper] [message-handler] 	Handled successful "prepare" message for worker 0 and test round 0
+2020.06.23-18:45:53.339[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:53.339Z","data":{"type":"prepared"}}
+2020.06.23-18:45:53.340[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with prepared message {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:53.339Z","data":{"type":"prepared"}}
+2020.06.23-18:45:53.342[90m debug[39m [caliper] [worker-orchestrator] 	Handling prepared message from 969 with data {"type":"prepared"}
+2020.06.23-18:45:53.342[32m info [39m [caliper] [worker-orchestrator] 	1 workers prepared, progressing to test phase.
+2020.06.23-18:45:53.343[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on startWatch
+2020.06.23-18:45:53.344[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:45:53.344Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-18:45:53.344[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["969"],"from":"1","timestamp":"2020-06-23T18:45:53.344Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-18:45:53.347[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:53.347Z","data":{"type":"txReset"}}
+2020.06.23-18:45:53.348[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txReset message
+2020.06.23-18:45:53.344[32m info [39m [caliper] [message-handler] 	Handling "test" message
+2020.06.23-18:45:53.345[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-18:45:53.346[90m debug[39m [caliper] [caliper-local-client.js] 	doTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":5}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":10,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-18:45:53.347[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:53.347Z","data":{"type":"txReset"}}
+2020.06.23-18:45:53.347[32m info [39m [caliper] [caliper-local-client.js] 	txUpdateTime: 5000
+2020.06.23-18:45:53.348[90m debug[39m [caliper] [rateControl.js] 	Creating rate controller for client#0 for round#0 ({"type":"fixed-rate","opts":{"tps":5}})
+2020.06.23-18:45:53.352[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 start test runFixedNumber():opening accounts
+2020.06.23-18:45:53.378[31m error[39m [caliper] [adapters/fabric] 	Failed to perform submit transaction [createCar] using arguments [c4196a30-b581-11ea-8c30-c301c61f1e35,A,B,C,d],  with error: Error: No discovery results found
+    at DiscoveryService.getDiscoveryResults (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/DiscoveryService.js:355:10)
+    at DiscoveryHandler.endorse (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/DiscoveryHandler.js:156:40)
+    at Endorsement.send (/home/node/.npm-global/lib/node_modules/fabric-network/node_modules/fabric-common/lib/Proposal.js:362:29)
+    at Transaction.submit (/home/node/.npm-global/lib/node_modules/fabric-network/lib/transaction.js:205:52)
+2020.06.23-18:45:55.979[32m info [39m [caliper] [adapters/fabric] 	disconnecting gateway for user client0.org1.example.com
+2020.06.23-18:45:55.986[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:55.986Z","data":{"submitted":10,"committed":{"succ":9,"fail":1,"create":{"min":1592937953.355,"max":1592937954.952},"final":{"min":1592937955.979,"max":1592937955.979,"last":1592937955.979},"delay":{"min":1.027,"max":2.624,"sum":16.433,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":10},"type":"txUpdate"}}
+2020.06.23-18:45:55.983[32m info [39m [caliper] [adapters/fabric] 	disconnecting gateway for user client0.org2.example.com
+2020.06.23-18:45:55.986[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:55.986Z","data":{"submitted":10,"committed":{"succ":9,"fail":1,"create":{"min":1592937953.355,"max":1592937954.952},"final":{"min":1592937955.979,"max":1592937955.979,"last":1592937955.979},"delay":{"min":1.027,"max":2.624,"sum":16.433,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":10},"type":"txUpdate"}}
+2020.06.23-18:45:55.986[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:55.986Z","data":{"type":"txReset"}}
+2020.06.23-18:45:55.987[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:55.987Z","data":{"results":{"succ":9,"fail":1,"create":{"min":1592937953.355,"max":1592937954.952},"final":{"min":1592937955.979,"max":1592937955.979,"last":1592937955.979},"delay":{"min":1.027,"max":2.624,"sum":16.433,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":10},"start":1592937953352,"end":1592937955979,"type":"testResult"}}
+2020.06.23-18:45:55.987[32m info [39m [caliper] [message-handler] 	Handled successful "test" message for worker 0 and test round 0
+2020.06.23-18:45:55.988[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-18:45:55.988[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:55.986Z","data":{"type":"txReset"}}
+2020.06.23-18:45:55.989[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txReset message
+2020.06.23-18:45:55.989[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"969","timestamp":"2020-06-23T18:45:55.987Z","data":{"results":{"succ":9,"fail":1,"create":{"min":1592937953.355,"max":1592937954.952},"final":{"min":1592937955.979,"max":1592937955.979,"last":1592937955.979},"delay":{"min":1.027,"max":2.624,"sum":16.433,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":10},"start":1592937953352,"end":1592937955979,"type":"testResult"}}
+2020.06.23-18:45:55.990[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with testResult message
+2020.06.23-18:45:55.990[90m debug[39m [caliper] [worker-orchestrator] 	Handling testResult message from 969 with data {}
+2020.06.23-18:45:55.991[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on stopWatch
+2020.06.23-18:45:55.992[90m debug[39m [caliper] [report-builder] 	getLocalResultValues called with:  ({"succ":9,"fail":1,"create":{"min":1592937953.355,"max":1592937954.952},"final":{"min":1592937955.979,"max":1592937955.979,"last":1592937955.979},"delay":{"min":1.027,"max":2.624,"sum":16.433,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":10})
+2020.06.23-18:45:55.993[32m info [39m [caliper] [report-builder] 	### Test result ###
+2020.06.23-18:45:56.010[32m info [39m [caliper] [report-builder] 	
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name | Succ | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|------|------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open | 9    | 1    | 6.3             | 2.62            | 1.03            | 1.83            | 3.4              |
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2020.06.23-18:45:56.027[32m info [39m [caliper] [round-orchestrator] 	Finished round 1 (open) in 2.627 seconds
+2020.06.23-18:45:56.027[32m info [39m [caliper] [report-builder] 	### All test results ###
+2020.06.23-18:45:56.033[32m info [39m [caliper] [report-builder] 	
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name | Succ | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|------|------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open | 9    | 1    | 6.3             | 2.62            | 1.03            | 1.83            | 3.4              |
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2020.06.23-18:45:56.067[32m info [39m [caliper] [caliper-flow] 	Generated report with path /hyperledger/caliper/workspace/report.html
+2020.06.23-18:45:56.169[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:45:56.168Z","data":{"type":"exit"}}
+2020.06.23-18:45:56.169[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T18:45:56.168Z","data":{"type":"exit"}}

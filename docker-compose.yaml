@@ -1,7 +1,5 @@
 version: "2"
 
-networks:
-  test:
 
 services:
   caliper_1.4:
