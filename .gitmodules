@@ -1,0 +1,3 @@
+[submodule "caliper-benchmarks"]
+	path = caliper-benchmarks
+	url = https://github.com/hyperledger/caliper-benchmarks.git
