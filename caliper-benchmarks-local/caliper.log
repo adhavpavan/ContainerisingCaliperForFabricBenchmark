@@ -1,0 +1,659 @@
+2020.06.23-15:52:06.330[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-15:52:06.950[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-15:52:06.959[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-15:52:06.960[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-15:52:06.960[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-15:52:06.961[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-15:52:06.961[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-15:54:08.606[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:14:19.057[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:14:19.472[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:14:19.479[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:14:19.479[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:14:19.479[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:14:19.479[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:14:19.479[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:16:06.066[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:20:14.882[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:20:15.228[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:20:15.240[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:20:15.241[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:20:15.242[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:20:15.243[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:20:15.243[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:21:04.477[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:21:04.853[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:21:04.860[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:21:04.860[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:21:04.861[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:21:04.861[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:21:04.861[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:22:56.894[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:22:56.894[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-16:22:56.896[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-16:22:56.896[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-16:22:56.904[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-16:22:56.906[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-16:22:56.915[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-16:22:57.830[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-16:22:57.831[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-16:22:58.638[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-16:22:58.877[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-16:22:58.893[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-16:22:58.902[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-16:22:58.918[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-16:22:58.926[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-16:24:05.315[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:24:05.559[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:24:05.564[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:24:05.564[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:24:05.565[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:24:05.565[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:24:05.565[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:25:57.385[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:25:57.385[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-16:25:57.386[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-16:25:57.386[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-16:25:57.395[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-16:25:57.395[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-16:25:57.403[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-16:25:58.260[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-16:25:58.260[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-16:25:59.029[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-16:25:59.275[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-16:25:59.298[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-16:25:59.310[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-16:25:59.325[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-16:25:59.334[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-16:28:10.956[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:28:11.166[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:28:11.171[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:28:11.172[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:28:11.172[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:28:11.172[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:28:11.172[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:29:54.679[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:29:54.680[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-16:29:54.680[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-16:29:54.681[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-16:29:54.686[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-16:29:54.687[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-16:29:54.697[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-16:29:55.528[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-16:29:55.528[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-16:29:56.282[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-16:29:56.515[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-16:29:56.538[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-16:29:56.549[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-16:29:56.563[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-16:29:56.573[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-16:29:56.574[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-16:29:56.669[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-16:29:56.698[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-16:29:56.699[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.17 seconds
+2020.06.23-16:29:56.700[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-16:29:56.768[31m error[39m [caliper] [caliper-engine] 	Error while performing "install" step: Error: Couldn't install fabcar@1 on peers peer0.org1.example.com: ENOENT: no such file or directory, lstat '/hyperledger/caliper/workspace/src/fabric/samples/marbles/go'
+2020.06.23-16:33:12.550[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:33:12.780[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:33:12.786[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:33:12.787[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:33:12.787[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:33:12.787[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:33:12.787[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:34:54.554[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:34:54.555[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-16:34:54.555[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-16:34:54.555[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-16:34:54.563[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-16:34:54.563[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-16:34:54.572[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-16:34:55.434[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-16:34:55.434[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-16:34:56.151[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-16:34:56.370[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-16:34:56.395[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-16:34:56.406[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-16:34:56.416[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-16:34:56.424[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-16:34:56.425[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-16:34:56.474[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-16:34:56.496[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-16:34:56.497[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.063 seconds
+2020.06.23-16:34:56.498[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-16:34:56.614[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 successfully installed on Org1's peers: peer0.org1.example.com
+2020.06.23-16:34:56.647[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 successfully installed on Org2's peers: peer0.org2.example.com
+2020.06.23-16:34:56.648[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-16:34:56.731[31m error[39m [caliper] [caliper-engine] 	Error while performing "install" step: Error: Invalid endorsement for fabcar@1 in mychannel from peer0.org1.example.com: chaincode with name 'fabcar' already exists
+2020.06.23-16:41:27.386[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:41:27.772[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:41:27.781[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:41:27.781[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:41:27.785[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:41:27.792[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:41:27.793[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:43:17.708[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:43:17.709[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-16:43:17.710[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-16:43:17.710[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-16:43:17.717[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-16:43:17.717[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-16:43:17.724[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-16:43:18.638[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-16:43:18.638[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-16:43:19.477[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-16:43:19.686[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-16:43:19.709[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-16:43:19.722[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-16:43:19.733[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-16:43:19.741[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-16:43:19.742[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-16:43:19.828[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-16:43:19.866[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-16:43:19.866[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.228 seconds
+2020.06.23-16:43:19.867[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-16:43:20.046[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 successfully installed on Org1's peers: peer0.org1.example.com
+2020.06.23-16:43:20.145[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 successfully installed on Org2's peers: peer0.org2.example.com
+2020.06.23-16:43:20.147[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-16:43:23.839[31m error[39m [caliper] [caliper-engine] 	Error while performing "install" step: Error: Invalid endorsement for fabcar@1 in mychannel from peer0.org1.example.com: error starting container: error starting container: Failed to generate platform-specific docker build: Error returned from build: 1 "/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:27:2: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/core/chaincode/shim
+/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:28:2: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/protos/peer (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/protos/peer (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/protos/peer
+"
+2020.06.23-16:44:52.482[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:44:52.746[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:44:52.752[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:44:52.752[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:44:52.753[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:44:52.753[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:44:52.753[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:46:43.355[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:46:43.356[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-16:46:43.356[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-16:46:43.356[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-16:46:43.365[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-16:46:43.365[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-16:46:43.373[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-16:46:44.246[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-16:46:44.247[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-16:46:44.986[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-16:46:45.222[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-16:46:45.247[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-16:46:45.259[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-16:46:45.275[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-16:46:45.284[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-16:46:45.286[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-16:46:45.337[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-16:46:45.359[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-16:46:45.360[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.114 seconds
+2020.06.23-16:46:45.362[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-16:46:45.375[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org1.example.com
+2020.06.23-16:46:45.390[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org2.example.com
+2020.06.23-16:46:45.391[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-16:46:49.012[31m error[39m [caliper] [caliper-engine] 	Error while performing "install" step: Error: Invalid endorsement for fabcar@1 in mychannel from peer0.org1.example.com: error starting container: error starting container: Failed to generate platform-specific docker build: Error returned from build: 1 "/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:27:2: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/core/chaincode/shim
+/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:28:2: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/protos/peer (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/protos/peer (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/protos/peer
+"
+2020.06.23-16:57:58.055[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-16:57:58.286[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-16:57:58.291[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-16:57:58.291[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-16:57:58.291[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-16:57:58.292[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-16:57:58.292[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-16:59:42.157[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-16:59:42.157[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-16:59:42.158[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-16:59:42.158[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-16:59:42.169[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-16:59:42.169[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-16:59:42.177[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-16:59:42.985[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-16:59:42.989[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-16:59:43.698[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-16:59:43.920[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-16:59:43.940[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-16:59:43.955[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-16:59:43.966[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-16:59:43.975[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-16:59:43.976[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-16:59:44.023[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-16:59:44.047[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-16:59:44.047[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.058 seconds
+2020.06.23-16:59:44.048[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-16:59:44.060[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org1.example.com
+2020.06.23-16:59:44.071[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org2.example.com
+2020.06.23-16:59:44.072[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-16:59:48.150[31m error[39m [caliper] [caliper-engine] 	Error while performing "install" step: Error: Invalid endorsement for fabcar@1 in mychannel from peer0.org1.example.com: error starting container: error starting container: Failed to generate platform-specific docker build: Error returned from build: 1 "/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:27:2: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/core/chaincode/shim
+/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:28:2: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/protos/peer (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/protos/peer (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/protos/peer
+"
+2020.06.23-17:03:19.409[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:03:19.638[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-17:03:19.643[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-17:03:19.643[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-17:03:19.643[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-17:03:19.644[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-17:03:19.644[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-17:05:01.809[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:05:01.810[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:05:01.810[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:05:01.810[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:05:01.828[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-17:05:01.828[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-17:05:01.837[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:05:02.736[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-17:05:02.737[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:05:03.486[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-17:05:03.709[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-17:05:03.735[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:05:03.747[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:05:03.760[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-17:05:03.770[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-17:05:03.771[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-17:05:03.818[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-17:05:03.838[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-17:05:03.839[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.102 seconds
+2020.06.23-17:05:03.840[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-17:05:03.850[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org1.example.com
+2020.06.23-17:05:03.864[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org2.example.com
+2020.06.23-17:05:03.866[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-17:05:07.314[31m error[39m [caliper] [caliper-engine] 	Error while performing "install" step: Error: Invalid endorsement for fabcar@1 in mychannel from peer0.org1.example.com: error starting container: error starting container: Failed to generate platform-specific docker build: Error returned from build: 1 "/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:27:2: cannot find package "github.com/hyperledger/fabric/core/chaincode/shim" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/core/chaincode/shim (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/core/chaincode/shim
+/chaincode/input/src/fabric/samples/fabcar/go/fabcar.go:28:2: cannot find package "github.com/hyperledger/fabric/protos/peer" in any of:
+	/usr/local/go/src/github.com/hyperledger/fabric/protos/peer (from $GOROOT)
+	/chaincode/input/src/github.com/hyperledger/fabric/protos/peer (from $GOPATH)
+	/go/src/github.com/hyperledger/fabric/protos/peer
+"
+2020.06.23-17:06:59.773[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:07:00.009[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-17:07:00.013[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-17:07:00.014[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-17:07:00.014[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-17:07:00.014[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-17:07:00.014[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-17:08:43.369[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:08:43.370[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:08:43.370[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:08:43.370[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:08:43.380[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-17:08:43.380[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-17:08:43.389[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:08:44.274[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-17:08:44.275[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:08:45.199[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-17:08:45.413[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-17:08:45.436[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:08:45.448[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:08:45.460[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-17:08:45.470[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-17:08:45.470[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-17:08:45.536[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-17:08:45.558[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-17:08:45.559[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.284 seconds
+2020.06.23-17:08:45.560[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-17:08:46.946[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 successfully installed on Org1's peers: peer0.org1.example.com
+2020.06.23-17:08:48.148[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 successfully installed on Org2's peers: peer0.org2.example.com
+2020.06.23-17:08:48.150[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-17:09:18.774[32m info [39m [caliper] [adapters/fabric] 	Successfully instantiated fabcar@1 in mychannel
+2020.06.23-17:09:18.782[32m info [39m [caliper] [adapters/fabric] 	Sleeping 5s...
+2020.06.23-17:09:23.785[32m info [39m [caliper] [caliper-engine] 	Executed "install" step in 38.226 seconds
+2020.06.23-17:09:23.787[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-master" 
+2020.06.23-17:09:23.791[90m debug[39m [caliper] [testObserver.js] 	Creating test observer of type "none"
+2020.06.23-17:09:23.793[32m info [39m [caliper] [null-observer] 	Configured "null" observer
+2020.06.23-17:09:23.796[32m info [39m [caliper] [round-orchestrator] 	Monitors successfully started
+2020.06.23-17:09:23.797[32m info [39m [caliper] [round-orchestrator] 	Started round 1 (open)
+2020.06.23-17:09:23.798[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setBenchmark
+2020.06.23-17:09:23.798[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setRound
+2020.06.23-17:09:23.798[32m info [39m [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2020.06.23-17:09:23.808[32m info [39m [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2020.06.23-17:09:23.809[32m info [39m [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2020.06.23-17:09:23.810[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2020.06.23-17:09:24.156[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:09:24.379[32m info [39m [caliper] [cli-launch-worker] 	Worker is a locally forked process, skipping binding step already performed by the master process
+2020.06.23-17:09:24.381[32m info [39m [caliper] [cli-launch-worker] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:09:24.381[32m info [39m [caliper] [cli-launch-worker] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:09:24.381[32m info [39m [caliper] [cli-launch-worker] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:09:24.382[32m info [39m [caliper] [cli-launch-worker] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:09:24.385[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-worker"  for SUT fabric
+2020.06.23-17:09:28.813[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:09:28.810Z","data":{"type":"register"}}
+2020.06.23-17:09:28.814[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:09:28.810Z","data":{"type":"register"}}
+2020.06.23-17:09:28.815[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:28.814Z","data":{"type":"connected"}}
+2020.06.23-17:09:28.815[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:28.814Z","data":{"type":"connected"}}
+2020.06.23-17:09:28.817[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:09:28.817Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:09:28.815[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with connected message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:28.814Z","data":{"type":"connected"}}
+2020.06.23-17:09:28.816[90m debug[39m [caliper] [worker-orchestrator] 	Handling connected message from 710 with data {"type":"connected"}
+2020.06.23-17:09:28.816[32m info [39m [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2020.06.23-17:09:28.816[32m info [39m [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2020.06.23-17:09:28.817[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:09:28.817Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:09:28.817[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2020.06.23-17:09:28.817[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:28.817Z","data":{"type":"assigned"}}
+2020.06.23-17:09:28.817[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:28.817Z","data":{"type":"assigned"}}
+2020.06.23-17:09:28.817[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with assigned message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:28.817Z","data":{"type":"assigned"}}
+2020.06.23-17:09:28.818[90m debug[39m [caliper] [worker-orchestrator] 	Handling assigned message from 710 with data {"type":"assigned"}
+2020.06.23-17:09:28.818[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase assigned
+2020.06.23-17:09:28.818[32m info [39m [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2020.06.23-17:09:28.818[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2020.06.23-17:09:28.818[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:09:28.818Z","data":{"type":"initialize"}}
+2020.06.23-17:09:28.819[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:09:28.818Z","data":{"type":"initialize"}}
+2020.06.23-17:09:28.819[32m info [39m [caliper] [message-handler] 	Handling "init" message
+2020.06.23-17:09:28.819[90m debug[39m [caliper] [message-handler] 	Message content ({"type":"initialize"})
+2020.06.23-17:09:28.837[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:09:29.656[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:09:30.060[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:09:30.067[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:09:30.087[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:30.087Z","data":{"type":"ready"}}
+2020.06.23-17:09:30.087[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:30.087Z","data":{"type":"ready"}}
+2020.06.23-17:09:30.087[32m info [39m [caliper] [message-handler] 	Handled successful "init" message for worker 0
+2020.06.23-17:09:30.087[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with ready message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:30.087Z","data":{"type":"ready"}}
+2020.06.23-17:09:30.087[90m debug[39m [caliper] [worker-orchestrator] 	Handling ready message from 710 with data {"type":"ready"}
+2020.06.23-17:09:30.088[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase ready
+2020.06.23-17:09:30.088[32m info [39m [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2020.06.23-17:09:30.090[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:09:30.089Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:09:30.094[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:30.094Z","data":{"error":"Error: Cannot find module '/hyperledger/caliper/workspace/benchmarks/scenario/pavan/open.js'","type":"prepared"}}
+2020.06.23-17:09:30.090[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:09:30.089Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:09:30.091[32m info [39m [caliper] [message-handler] 	Handling "prepare" message
+2020.06.23-17:09:30.092[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:09:30.092[90m debug[39m [caliper] [caliper-local-client.js] 	prepareTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:09:30.094[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:30.094Z","data":{"error":"Error: Cannot find module '/hyperledger/caliper/workspace/benchmarks/scenario/pavan/open.js'","type":"prepared"}}
+2020.06.23-17:09:30.094[31m error[39m [caliper] [message-handler] 	Handled unsuccessful "prepare" message for worker 0 and test round 0 with error Error: Cannot find module '/hyperledger/caliper/workspace/benchmarks/scenario/pavan/open.js'
+2020.06.23-17:09:30.094[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with prepared message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:09:30.094Z","data":{"error":"Error: Cannot find module '/hyperledger/caliper/workspace/benchmarks/scenario/pavan/open.js'","type":"prepared"}}
+2020.06.23-17:09:30.095[90m debug[39m [caliper] [worker-orchestrator] 	Handling prepared message from 710 with data {"error":"Error: Cannot find module '/hyperledger/caliper/workspace/benchmarks/scenario/pavan/open.js'","type":"prepared"}
+2020.06.23-17:09:30.095[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on stopWatch
+2020.06.23-17:09:30.096[31m error[39m [caliper] [round-orchestrator] 	Failed round 1 (open): Error: Error: Cannot find module '/hyperledger/caliper/workspace/benchmarks/scenario/pavan/open.js'
+    at WorkerOrchestrator.updateWorkerPhase (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/worker-orchestrator.js:211:61)
+    at WorkerOrchestrator.processWorkerUpdate (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/worker-orchestrator.js:124:18)
+    at ChildProcess.<anonymous> (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/common/messaging/process-master.js:51:30)
+    at ChildProcess.emit (events.js:198:13)
+    at emit (internal/child_process.js:832:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020.06.23-17:09:30.097[32m info [39m [caliper] [report-builder] 	### All test results ###
+2020.06.23-17:09:30.098[31m error[39m [caliper] [round-orchestrator] 	Error while finalizing the report: Error: Table must define at least one row.
+    at exports.default.rows (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/table/dist/validateTableData.js:25:11)
+    at Object.exports.default [as table] (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/table/dist/table.js:116:35)
+    at Report.printTable (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/report/report.js:126:23)
+    at Report.printResultsByRound (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/report/report.js:248:14)
+    at RoundOrchestrator.run (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/round-orchestrator.js:221:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020.06.23-17:09:30.199[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:09:30.199Z","data":{"type":"exit"}}
+2020.06.23-17:09:30.199[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:09:30.199Z","data":{"type":"exit"}}
+2020.06.23-17:11:31.171[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:11:31.470[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-17:11:31.477[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-17:11:31.478[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-17:11:31.478[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-17:11:31.478[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-17:11:31.478[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-17:13:16.825[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:13:16.826[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:13:16.826[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:13:16.826[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:13:16.835[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-17:13:16.835[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-17:13:16.843[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:13:17.771[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-17:13:17.771[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:13:18.527[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-17:13:18.761[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-17:13:18.784[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:13:18.798[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:13:18.811[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-17:13:18.822[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-17:13:18.823[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-17:13:18.882[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-17:13:18.903[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-17:13:18.904[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.133 seconds
+2020.06.23-17:13:18.905[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-17:13:18.927[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org1.example.com
+2020.06.23-17:13:18.948[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org2.example.com
+2020.06.23-17:13:18.949[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-17:13:18.973[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already instantiated in mychannel
+2020.06.23-17:13:18.974[32m info [39m [caliper] [caliper-engine] 	Executed "install" step in 0.07 seconds
+2020.06.23-17:13:18.975[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-master" 
+2020.06.23-17:13:18.979[90m debug[39m [caliper] [testObserver.js] 	Creating test observer of type "none"
+2020.06.23-17:13:18.982[32m info [39m [caliper] [null-observer] 	Configured "null" observer
+2020.06.23-17:13:18.986[32m info [39m [caliper] [round-orchestrator] 	Monitors successfully started
+2020.06.23-17:13:18.986[32m info [39m [caliper] [round-orchestrator] 	Started round 1 (open)
+2020.06.23-17:13:18.986[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setBenchmark
+2020.06.23-17:13:18.987[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setRound
+2020.06.23-17:13:18.987[32m info [39m [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2020.06.23-17:13:18.993[32m info [39m [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2020.06.23-17:13:18.994[32m info [39m [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2020.06.23-17:13:18.994[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2020.06.23-17:13:19.317[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:13:19.535[32m info [39m [caliper] [cli-launch-worker] 	Worker is a locally forked process, skipping binding step already performed by the master process
+2020.06.23-17:13:19.537[32m info [39m [caliper] [cli-launch-worker] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:13:19.537[32m info [39m [caliper] [cli-launch-worker] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:13:19.537[32m info [39m [caliper] [cli-launch-worker] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:13:19.538[32m info [39m [caliper] [cli-launch-worker] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:13:19.540[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-worker"  for SUT fabric
+2020.06.23-17:13:23.998[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:13:23.996Z","data":{"type":"register"}}
+2020.06.23-17:13:23.999[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:13:23.996Z","data":{"type":"register"}}
+2020.06.23-17:13:24.003[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:24.001Z","data":{"type":"connected"}}
+2020.06.23-17:13:24.005[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:24.001Z","data":{"type":"connected"}}
+2020.06.23-17:13:24.007[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:13:24.007Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:13:24.006[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with connected message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:24.001Z","data":{"type":"connected"}}
+2020.06.23-17:13:24.006[90m debug[39m [caliper] [worker-orchestrator] 	Handling connected message from 710 with data {"type":"connected"}
+2020.06.23-17:13:24.007[32m info [39m [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2020.06.23-17:13:24.007[32m info [39m [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2020.06.23-17:13:24.007[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:13:24.007Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:13:24.007[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2020.06.23-17:13:24.008[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:24.008Z","data":{"type":"assigned"}}
+2020.06.23-17:13:24.008[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:24.008Z","data":{"type":"assigned"}}
+2020.06.23-17:13:24.008[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with assigned message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:24.008Z","data":{"type":"assigned"}}
+2020.06.23-17:13:24.009[90m debug[39m [caliper] [worker-orchestrator] 	Handling assigned message from 710 with data {"type":"assigned"}
+2020.06.23-17:13:24.009[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase assigned
+2020.06.23-17:13:24.009[32m info [39m [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2020.06.23-17:13:24.009[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2020.06.23-17:13:24.009[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:13:24.009Z","data":{"type":"initialize"}}
+2020.06.23-17:13:24.010[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:13:24.009Z","data":{"type":"initialize"}}
+2020.06.23-17:13:24.010[32m info [39m [caliper] [message-handler] 	Handling "init" message
+2020.06.23-17:13:24.010[90m debug[39m [caliper] [message-handler] 	Message content ({"type":"initialize"})
+2020.06.23-17:13:24.016[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:13:24.730[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:13:25.125[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:13:25.135[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:13:25.157[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:25.157Z","data":{"type":"ready"}}
+2020.06.23-17:13:25.158[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:25.157Z","data":{"type":"ready"}}
+2020.06.23-17:13:25.158[32m info [39m [caliper] [message-handler] 	Handled successful "init" message for worker 0
+2020.06.23-17:13:25.163[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:13:25.163Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:13:25.160[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with ready message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:25.157Z","data":{"type":"ready"}}
+2020.06.23-17:13:25.161[90m debug[39m [caliper] [worker-orchestrator] 	Handling ready message from 710 with data {"type":"ready"}
+2020.06.23-17:13:25.161[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase ready
+2020.06.23-17:13:25.162[32m info [39m [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2020.06.23-17:13:25.163[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:13:25.163Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:13:25.164[32m info [39m [caliper] [message-handler] 	Handling "prepare" message
+2020.06.23-17:13:25.165[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:13:25.165[90m debug[39m [caliper] [caliper-local-client.js] 	prepareTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:13:25.343[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase starting...
+2020.06.23-17:13:25.344[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:25.344Z","data":{"error":"ReferenceError: txnPerBatch is not defined","type":"prepared"}}
+2020.06.23-17:13:25.343[32m info [39m [caliper] [caliper-local-client.js] 	Client[0] encountered an error during prepare test phase: ReferenceError: txnPerBatch is not defined
+    at Object.module.exports.init (/hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/open.js:13:17)
+    at CaliperLocalClient.prepareTest (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/worker/client/caliper-local-client.js:344:22)
+2020.06.23-17:13:25.343[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase complete
+2020.06.23-17:13:25.344[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:25.344Z","data":{"error":"ReferenceError: txnPerBatch is not defined","type":"prepared"}}
+2020.06.23-17:13:25.344[31m error[39m [caliper] [message-handler] 	Handled unsuccessful "prepare" message for worker 0 and test round 0 with error ReferenceError: txnPerBatch is not defined
+2020.06.23-17:13:25.345[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with prepared message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:13:25.344Z","data":{"error":"ReferenceError: txnPerBatch is not defined","type":"prepared"}}
+2020.06.23-17:13:25.345[90m debug[39m [caliper] [worker-orchestrator] 	Handling prepared message from 710 with data {"error":"ReferenceError: txnPerBatch is not defined","type":"prepared"}
+2020.06.23-17:13:25.346[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on stopWatch
+2020.06.23-17:13:25.347[31m error[39m [caliper] [round-orchestrator] 	Failed round 1 (open): Error: ReferenceError: txnPerBatch is not defined
+    at WorkerOrchestrator.updateWorkerPhase (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/worker-orchestrator.js:211:61)
+    at WorkerOrchestrator.processWorkerUpdate (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/worker-orchestrator.js:124:18)
+    at ChildProcess.<anonymous> (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/common/messaging/process-master.js:51:30)
+    at ChildProcess.emit (events.js:198:13)
+    at emit (internal/child_process.js:832:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2020.06.23-17:13:25.350[32m info [39m [caliper] [report-builder] 	### All test results ###
+2020.06.23-17:13:25.353[31m error[39m [caliper] [round-orchestrator] 	Error while finalizing the report: Error: Table must define at least one row.
+    at exports.default.rows (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/table/dist/validateTableData.js:25:11)
+    at Object.exports.default [as table] (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/table/dist/table.js:116:35)
+    at Report.printTable (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/report/report.js:126:23)
+    at Report.printResultsByRound (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/report/report.js:248:14)
+    at RoundOrchestrator.run (/home/node/.npm-global/lib/node_modules/@hyperledger/caliper-cli/node_modules/@hyperledger/caliper-core/lib/master/orchestrators/round-orchestrator.js:221:25)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2020.06.23-17:13:25.459[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:13:25.459Z","data":{"type":"exit"}}
+2020.06.23-17:13:25.459[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:13:25.459Z","data":{"type":"exit"}}
+2020.06.23-17:15:01.385[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:15:01.558[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-17:15:01.565[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-17:15:01.566[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-17:15:01.566[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-17:15:01.566[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-17:15:01.566[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4
+2020.06.23-17:16:41.607[32m info [39m [caliper] [cli-launch-master] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:16:41.608[32m info [39m [caliper] [cli-launch-master] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:16:41.608[32m info [39m [caliper] [cli-launch-master] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:16:41.609[32m info [39m [caliper] [cli-launch-master] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:16:41.617[32m info [39m [caliper] [benchmark-validator] 	No observer specified, will default to `none`
+2020.06.23-17:16:41.617[32m info [39m [caliper] [caliper-engine] 	Starting benchmark flow
+2020.06.23-17:16:41.625[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:16:42.548[32m info [39m [caliper] [caliper-engine] 	Network configuration attribute "caliper.command.start" is not present, skipping start command
+2020.06.23-17:16:42.549[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:16:43.244[32m info [39m [caliper] [adapters/fabric] 	Org1's registrar enrolled successfully
+2020.06.23-17:16:43.456[32m info [39m [caliper] [adapters/fabric] 	Org2's registrar enrolled successfully
+2020.06.23-17:16:43.480[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:16:43.495[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:16:43.507[32m info [39m [caliper] [adapters/fabric] 	client0.org1.example.com's materials are successfully loaded
+2020.06.23-17:16:43.519[32m info [39m [caliper] [adapters/fabric] 	client0.org2.example.com's materials are successfully loaded
+2020.06.23-17:16:43.520[32m info [39m [caliper] [adapters/fabric] 	Channel 'mychannel' is configured as created, skipping creation
+2020.06.23-17:16:43.575[32m info [39m [caliper] [adapters/fabric] 	peer0.org1.example.com has already joined mychannel
+2020.06.23-17:16:43.598[32m info [39m [caliper] [adapters/fabric] 	peer0.org2.example.com has already joined mychannel
+2020.06.23-17:16:43.598[32m info [39m [caliper] [caliper-engine] 	Executed "init" step in 1.049 seconds
+2020.06.23-17:16:43.599[32m info [39m [caliper] [adapters/fabric] 	Installing chaincodes for mychannel...
+2020.06.23-17:16:43.618[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org1.example.com
+2020.06.23-17:16:43.639[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already installed on peer0.org2.example.com
+2020.06.23-17:16:43.640[32m info [39m [caliper] [adapters/fabric] 	Instantiating fabcar@1 in mychannel. This might take some time...
+2020.06.23-17:16:43.679[32m info [39m [caliper] [adapters/fabric] 	fabcar@1 is already instantiated in mychannel
+2020.06.23-17:16:43.680[32m info [39m [caliper] [caliper-engine] 	Executed "install" step in 0.081 seconds
+2020.06.23-17:16:43.681[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-master" 
+2020.06.23-17:16:43.684[90m debug[39m [caliper] [testObserver.js] 	Creating test observer of type "none"
+2020.06.23-17:16:43.686[32m info [39m [caliper] [null-observer] 	Configured "null" observer
+2020.06.23-17:16:43.688[32m info [39m [caliper] [round-orchestrator] 	Monitors successfully started
+2020.06.23-17:16:43.689[32m info [39m [caliper] [round-orchestrator] 	Started round 1 (open)
+2020.06.23-17:16:43.689[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setBenchmark
+2020.06.23-17:16:43.689[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on setRound
+2020.06.23-17:16:43.689[32m info [39m [caliper] [worker-orchestrator] 	Launching worker 1 of 1
+2020.06.23-17:16:43.696[32m info [39m [caliper] [worker-orchestrator] 	Messenger not configured, entering configure phase...
+2020.06.23-17:16:43.697[32m info [39m [caliper] [worker-orchestrator] 	No existing workers detected, entering worker launch phase...
+2020.06.23-17:16:43.697[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be connected...
+2020.06.23-17:16:44.024[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:16:44.243[32m info [39m [caliper] [cli-launch-worker] 	Worker is a locally forked process, skipping binding step already performed by the master process
+2020.06.23-17:16:44.245[32m info [39m [caliper] [cli-launch-worker] 	Set workspace path: /hyperledger/caliper/workspace
+2020.06.23-17:16:44.245[32m info [39m [caliper] [cli-launch-worker] 	Set benchmark configuration path: /hyperledger/caliper/workspace/benchmarks/scenario/simple/pavan/config.yaml
+2020.06.23-17:16:44.245[32m info [39m [caliper] [cli-launch-worker] 	Set network configuration path: /hyperledger/caliper/workspace/networks/fabric/pavan/network-config_1.4.yaml
+2020.06.23-17:16:44.245[32m info [39m [caliper] [cli-launch-worker] 	Set SUT type: fabric:1.4.4
+2020.06.23-17:16:44.248[32m info [39m [caliper] [messenger.js] 	Creating messenger of type "process-worker"  for SUT fabric
+2020.06.23-17:16:48.699[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:16:48.698Z","data":{"type":"register"}}
+2020.06.23-17:16:48.700[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:16:48.698Z","data":{"type":"register"}}
+2020.06.23-17:16:48.702[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:48.701Z","data":{"type":"connected"}}
+2020.06.23-17:16:48.703[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:48.701Z","data":{"type":"connected"}}
+2020.06.23-17:16:48.708[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:16:48.708Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:16:48.704[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with connected message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:48.701Z","data":{"type":"connected"}}
+2020.06.23-17:16:48.706[90m debug[39m [caliper] [worker-orchestrator] 	Handling connected message from 710 with data {"type":"connected"}
+2020.06.23-17:16:48.707[32m info [39m [caliper] [worker-orchestrator] 	1 workers connected, progressing to worker assignment phase.
+2020.06.23-17:16:48.708[32m info [39m [caliper] [worker-orchestrator] 	Workers currently unassigned, awaiting index assignment...
+2020.06.23-17:16:48.708[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:16:48.708Z","data":{"workerId":0,"type":"assignId"}}
+2020.06.23-17:16:48.708[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be assigned...
+2020.06.23-17:16:48.709[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:48.709Z","data":{"type":"assigned"}}
+2020.06.23-17:16:48.710[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:48.709Z","data":{"type":"assigned"}}
+2020.06.23-17:16:48.712[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:16:48.712Z","data":{"type":"initialize"}}
+2020.06.23-17:16:48.710[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with assigned message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:48.709Z","data":{"type":"assigned"}}
+2020.06.23-17:16:48.710[90m debug[39m [caliper] [worker-orchestrator] 	Handling assigned message from 710 with data {"type":"assigned"}
+2020.06.23-17:16:48.711[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase assigned
+2020.06.23-17:16:48.711[32m info [39m [caliper] [worker-orchestrator] 	1 workers assigned, progressing to worker initialization phase.
+2020.06.23-17:16:48.711[32m info [39m [caliper] [worker-orchestrator] 	Waiting for 1 workers to be ready...
+2020.06.23-17:16:48.712[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:16:48.712Z","data":{"type":"initialize"}}
+2020.06.23-17:16:48.712[32m info [39m [caliper] [message-handler] 	Handling "init" message
+2020.06.23-17:16:48.713[90m debug[39m [caliper] [message-handler] 	Message content ({"type":"initialize"})
+2020.06.23-17:16:48.717[32m info [39m [caliper] [adapters/fabric] 	Initializing standard adaptor compatible with installed SDK: 1.4.4
+2020.06.23-17:16:49.440[32m info [39m [caliper] [adapters/fabric] 	Fabric SDK version: 1.4.4; TLS: server
+2020.06.23-17:16:49.831[32m info [39m [caliper] [adapters/fabric] 	Org1's admin's materials are successfully loaded
+2020.06.23-17:16:49.840[32m info [39m [caliper] [adapters/fabric] 	Org2's admin's materials are successfully loaded
+2020.06.23-17:16:49.864[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:49.864Z","data":{"type":"ready"}}
+2020.06.23-17:16:49.865[32m info [39m [caliper] [message-handler] 	Handled successful "init" message for worker 0
+2020.06.23-17:16:49.864[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:49.864Z","data":{"type":"ready"}}
+2020.06.23-17:16:49.865[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with ready message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:49.864Z","data":{"type":"ready"}}
+2020.06.23-17:16:49.866[90m debug[39m [caliper] [worker-orchestrator] 	Handling ready message from 710 with data {"type":"ready"}
+2020.06.23-17:16:49.867[90m debug[39m [caliper] [worker-orchestrator] 	All workers completed phase ready
+2020.06.23-17:16:49.867[32m info [39m [caliper] [worker-orchestrator] 	1 workers ready, progressing to test preparation phase.
+2020.06.23-17:16:49.868[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:16:49.868Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:16:49.869[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:16:49.868Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"}}
+2020.06.23-17:16:49.869[32m info [39m [caliper] [message-handler] 	Handling "prepare" message
+2020.06.23-17:16:49.869[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:16:49.870[90m debug[39m [caliper] [caliper-local-client.js] 	prepareTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"prepare"})
+2020.06.23-17:16:50.050[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase starting...
+2020.06.23-17:16:54.886[32m info [39m [caliper] [caliper-local-client.js] 	Initialization ongoing...
+2020.06.23-17:16:55.052[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 prepare test :opening accountsphase complete
+2020.06.23-17:16:55.054[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:55.053Z","data":{"type":"prepared"}}
+2020.06.23-17:16:55.054[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:55.053Z","data":{"type":"prepared"}}
+2020.06.23-17:16:55.054[32m info [39m [caliper] [message-handler] 	Handled successful "prepare" message for worker 0 and test round 0
+2020.06.23-17:16:55.055[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with prepared message {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:55.053Z","data":{"type":"prepared"}}
+2020.06.23-17:16:55.056[90m debug[39m [caliper] [worker-orchestrator] 	Handling prepared message from 710 with data {"type":"prepared"}
+2020.06.23-17:16:55.057[32m info [39m [caliper] [worker-orchestrator] 	1 workers prepared, progressing to test phase.
+2020.06.23-17:16:55.058[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on startWatch
+2020.06.23-17:16:55.059[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:16:55.059Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-17:16:55.059[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["710"],"from":"1","timestamp":"2020-06-23T17:16:55.059Z","data":{"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"test"}}
+2020.06.23-17:16:55.061[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:55.061Z","data":{"type":"txReset"}}
+2020.06.23-17:16:55.062[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txReset message
+2020.06.23-17:16:55.060[32m info [39m [caliper] [message-handler] 	Handling "test" message
+2020.06.23-17:16:55.060[90m debug[39m [caliper] [message-handler] 	Message content ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-17:16:55.061[90m debug[39m [caliper] [caliper-local-client.js] 	doTest() with: ({"label":"open","rateControl":{"type":"fixed-rate","opts":{"tps":50}},"trim":0,"args":{"money":10000},"cb":"benchmarks/scenario/simple/pavan/open.js","testRound":0,"pushUrl":null,"numb":100,"clientArgs":{},"totalClients":1,"type":"test"})
+2020.06.23-17:16:55.061[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:55.061Z","data":{"type":"txReset"}}
+2020.06.23-17:16:55.061[32m info [39m [caliper] [caliper-local-client.js] 	txUpdateTime: 5000
+2020.06.23-17:16:55.062[90m debug[39m [caliper] [rateControl.js] 	Creating rate controller for client#0 for round#0 ({"type":"fixed-rate","opts":{"tps":50}})
+2020.06.23-17:16:55.065[32m info [39m [caliper] [caliper-local-client.js] 	Info: client 0 start test runFixedNumber():opening accounts
+2020.06.23-17:16:58.802[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:58.802Z","data":{"submitted":100,"committed":{"succ":100,"fail":0,"create":{"min":1592932615.069,"max":1592932617.64},"final":{"min":1592932616.399,"max":1592932618.8,"last":1592932618.8},"delay":{"min":1.108,"max":2.089,"sum":156.77499999999998,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":100},"type":"txUpdate"}}
+2020.06.23-17:16:58.802[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:58.802Z","data":{"submitted":100,"committed":{"succ":100,"fail":0,"create":{"min":1592932615.069,"max":1592932617.64},"final":{"min":1592932616.399,"max":1592932618.8,"last":1592932618.8},"delay":{"min":1.108,"max":2.089,"sum":156.77499999999998,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":100},"type":"txUpdate"}}
+2020.06.23-17:16:58.803[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txUpdate message
+2020.06.23-17:16:58.803[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:58.803Z","data":{"type":"txReset"}}
+2020.06.23-17:16:58.803[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with txReset message
+2020.06.23-17:16:58.803[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:58.803Z","data":{"type":"txReset"}}
+2020.06.23-17:16:59.003[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker sent message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:59.003Z","data":{"results":{"succ":100,"fail":0,"create":{"min":1592932615.069,"max":1592932617.64},"final":{"min":1592932616.399,"max":1592932618.8,"last":1592932618.8},"delay":{"min":1.108,"max":2.089,"sum":156.77499999999998,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":100},"start":1592932615065,"end":1592932618800,"type":"testResult"}}
+2020.06.23-17:16:59.004[90m debug[39m [caliper] [process-master-messenger] 	Processing worker message: {"to":["orchestrator"],"from":"710","timestamp":"2020-06-23T17:16:59.003Z","data":{"results":{"succ":100,"fail":0,"create":{"min":1592932615.069,"max":1592932617.64},"final":{"min":1592932616.399,"max":1592932618.8,"last":1592932618.8},"delay":{"min":1.108,"max":2.089,"sum":156.77499999999998,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":100},"start":1592932615065,"end":1592932618800,"type":"testResult"}}
+2020.06.23-17:16:59.004[32m info [39m [caliper] [message-handler] 	Handled "test" message for worker 0
+2020.06.23-17:16:59.005[90m debug[39m [caliper] [worker-orchestrator] 	Dealing with testResult message
+2020.06.23-17:16:59.006[90m debug[39m [caliper] [worker-orchestrator] 	Handling testResult message from 710 with data {}
+2020.06.23-17:16:59.007[90m debug[39m [caliper] [null-observer] 	No action taken by NullObserver on stopWatch
+2020.06.23-17:16:59.008[90m debug[39m [caliper] [report-builder] 	getLocalResultValues called with:  ({"succ":100,"fail":0,"create":{"min":1592932615.069,"max":1592932617.64},"final":{"min":1592932616.399,"max":1592932618.8,"last":1592932618.8},"delay":{"min":1.108,"max":2.089,"sum":156.77499999999998,"detail":[]},"out":[],"sTPTotal":null,"sTTotal":null,"invokeTotal":null,"length":100})
+2020.06.23-17:16:59.008[32m info [39m [caliper] [report-builder] 	### Test result ###
+2020.06.23-17:16:59.016[32m info [39m [caliper] [report-builder] 	
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name | Succ | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|------|------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open | 100  | 0    | 38.9            | 2.09            | 1.11            | 1.57            | 26.8             |
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2020.06.23-17:16:59.025[32m info [39m [caliper] [round-orchestrator] 	Finished round 1 (open) in 3.735 seconds
+2020.06.23-17:16:59.025[32m info [39m [caliper] [report-builder] 	### All test results ###
+2020.06.23-17:16:59.027[32m info [39m [caliper] [report-builder] 	
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+| Name | Succ | Fail | Send Rate (TPS) | Max Latency (s) | Min Latency (s) | Avg Latency (s) | Throughput (TPS) |
+|------|------|------|-----------------|-----------------|-----------------|-----------------|------------------|
+| open | 100  | 0    | 38.9            | 2.09            | 1.11            | 1.57            | 26.8             |
++------+------+------+-----------------+-----------------+-----------------+-----------------+------------------+
+
+2020.06.23-17:16:59.044[32m info [39m [caliper] [caliper-flow] 	Generated report with path /hyperledger/caliper/workspace/report.html
+2020.06.23-17:16:59.146[90m debug[39m [caliper] [process-master-messenger] 	Sent message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:16:59.146Z","data":{"type":"exit"}}
+2020.06.23-17:16:59.146[90m debug[39m [caliper] [mqtt-worker-messenger] 	fabric worker processing orchestrator message: {"to":["all"],"from":"1","timestamp":"2020-06-23T17:16:59.146Z","data":{"type":"exit"}}
+2020.06.23-17:26:19.182[90m debug[39m [caliper] [blockchain] 	Constructed a winston logger with the specified settings
+2020.06.23-17:26:19.396[32m info [39m [caliper] [cli-launch-master] 	Binding specification is present, performing binding for "fabric:1.4.4"
+2020.06.23-17:26:19.408[33m warn [39m [caliper] [bind] 	Working directory for binding not specified. Using "/hyperledger/caliper/workspace"
+2020.06.23-17:26:19.408[32m info [39m [caliper] [bind] 	User-provided arguments for "npm install": "-g"
+2020.06.23-17:26:19.408[32m info [39m [caliper] [bind] 	Binding for fabric@1.4.4. This might take some time...
+2020.06.23-17:26:19.408[32m info [39m [caliper] [bind] 	Binding working directory: /hyperledger/caliper/workspace
+2020.06.23-17:26:19.409[32m info [39m [caliper] [bind] 	Calling npm with: install -g grpc@1.14.2 fabric-ca-client@1.4.4 fabric-client@1.4.4 fabric-protos@2.0.0-snapshot.1 fabric-network@1.4.4

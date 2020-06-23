@@ -4,14 +4,14 @@ networks:
   test:
 
 services:
-  caliper:
+  caliper_1.4:
     container_name: caliper
     image: hyperledger/caliper:0.3.0
     command: launch master
     environment:
       - CALIPER_BIND_SUT=fabric:1.4.4
       - CALIPER_BENCHCONFIG=benchmarks/scenario/simple/pavan/config.yaml
-      - CALIPER_NETWORKCONFIG=networks/fabric/pavan/network-config.yaml
+      - CALIPER_NETWORKCONFIG=networks/fabric/pavan/network-config_1.4.yaml
     volumes:
-      - ./caliper-benchmarks:/hyperledger/caliper/workspace
+      - ./caliper-benchmarks-local:/hyperledger/caliper/workspace
     network_mode: host
