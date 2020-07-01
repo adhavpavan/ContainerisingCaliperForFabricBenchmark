@@ -9,7 +9,6 @@ services:
       - CALIPER_BIND_SUT=fabric:2.1.0
       - CALIPER_BENCHCONFIG=benchmarks/scenario/simple/pavan-v2.1/config.yaml
       - CALIPER_NETWORKCONFIG=networks/fabric/pavan-v2.1/network-config.yaml
-      # - CALIPER_FABRIC_SKIPCREATECHANNEL_MYCHANNEL=true
     volumes:
       - ./caliper-benchmarks-local:/hyperledger/caliper/workspace
     network_mode: host
