@@ -60,7 +60,6 @@ channels:
       version: "1"
       language: golang
       path: fabric/samples/fabcar/go
-      # metadataPath: src/fabric/samples/marbles/go/metadata
 
 
 organizations:
