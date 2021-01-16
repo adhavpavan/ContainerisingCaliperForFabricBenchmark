@@ -1,0 +1,22 @@
+test:
+  workers:
+    type: local
+    number: 5
+  rounds:
+    # - label: Create a car.
+    #   txDuration:
+    #     - 30
+    #   rateControl:
+    #     - type: fixed-load
+    #       opts:
+    #         transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/samples/fabric/fabcar/createCar.js
+    - label: init
+      txNumber: 1000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 100
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/createCar.js
