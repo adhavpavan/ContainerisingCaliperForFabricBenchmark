@@ -12,11 +12,49 @@ test:
     #         transactionLoad: 5
     #   workload:
     #     module: benchmarks/samples/fabric/fabcar/createCar.js
-    - label: init
+    - label: Create Car
       txNumber: 1000
       rateControl:
         type: fixed-rate
         opts:
-          tps: 100
+          tps: 40
       workload:
         module: benchmarks/scenario/simple/pavan-v2.2/createCar.js
+    # - label: Query a car.
+    #   rateControl:
+    #     - type: fixed-load
+    #       opts:
+    #         transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/samples/fabric/pavan-v2.2/queryCar.js
+    #     arguments:
+    #       assets: 1000
+    - label: Query Car
+      description: Test description for the query performance of the deployed contract.
+      txNumber: 2000
+      rateControl:
+        type: fixed-rate
+        opts:
+          tps: 220
+      workload:
+        module: benchmarks/scenario/simple/pavan-v2.2/queryCar.js
+    # - label: Query_Car_1
+    #   txDuration:
+    #   - 30
+    #   rateControl:
+    #   - type: fixed-load
+    #     opts:
+    #       transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/samples/fabric/pavan-v2.2/queryCar.js
+    #     arguments:
+    #       assets: 1000
+    # - label: Create_Car_1
+    #   txDuration:
+    #   - 30
+    #   rateControl:
+    #     - type: fixed-load
+    #       opts:
+    #         transactionLoad: 5
+    #   workload:
+    #     module: benchmarks/scenario/simple/pavan-v2.2/createCar.js
