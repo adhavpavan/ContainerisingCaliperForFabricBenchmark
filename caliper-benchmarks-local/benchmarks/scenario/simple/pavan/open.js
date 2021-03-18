@@ -22,10 +22,12 @@ module.exports.init = function (blockchain, context, args) {
 function generateWorkload() {
     let workload = [];
     for (let i = 0; i < txnPerBatch; i++) {
+        let id = uuidv4();
+        account_array.push(id)
 
         workload.push({
             chaincodeFunction: 'createCar',
-            chaincodeArguments: [uuidv4(), 'A', 'B', 'C', "d"],
+            chaincodeArguments: [id, 'A', 'B', 'C', "d"],
         });
     }
     return workload;

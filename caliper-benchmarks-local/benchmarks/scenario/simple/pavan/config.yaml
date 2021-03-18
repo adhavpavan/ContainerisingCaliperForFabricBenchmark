@@ -17,6 +17,14 @@ test:
     arguments:
       txnPerBatch: 1
     callback: benchmarks/scenario/simple/pavan/open.js
+  - label: query
+    description: Test description for the query performance of the deployed chaincode
+    txNumber: 1000
+    rateControl:
+      type: fixed-rate
+      opts:
+        tps: 100
+    callback: benchmarks/scenario/simple/pavan/query.js
 monitor:
   monitor:
   type:

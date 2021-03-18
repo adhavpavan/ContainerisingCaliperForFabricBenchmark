@@ -1,7 +1,7 @@
 test:
   workers:
     type: local
-    number: 5
+    number: 1
   rounds:
     # - label: Create a car.
     #   txDuration:
